@@ -22,7 +22,8 @@ Effects          :
 #2 (id=87)       : Apply Aura (6) | Invisibility Detection (19)
                    Base Value: 0 | Scaled Value: 315 | Points Per Level: 5 | Target: Self (1)
 Description      : Summons an Eye of Kilrogg and binds your vision to it. The eye is stealthed and moves quickly but is very fragile.
-Tooltip          : Controlling Eye of Kilrogg.
+Tooltip          : Controlling Eye of Kilrogg.
+
 Detecting Invisibility.
 
 Name             : Corruption (id=172) [Spell Family (5)] 
@@ -67,8 +68,10 @@ Effects          :
                    Base Value: 0 | Scaled Value: 0 (delta=0.05) | SP Coefficient: 0.813483 | PvP Coefficient: 1.2 | Chain Multiplier: 1 | Chain Targets: 1 | Target: Enemy (6)
 #2 (id=371976)   : Dummy (3)
                    Base Value: 50 | Scaled Value: 50
-Description      : Burns the enemy, causing $s1 Fire damage immediately and an additional $157736o1 Fire damage over $157736d.
-
+Description      : Burns the enemy, causing $s1 Fire damage immediately and an additional $157736o1 Fire damage over $157736d.
+
+
+
 |cFFFFFFFFPeriodic damage generates 1 Soul Shard Fragment and has a $s2% chance to generate an additional 1 on critical strikes.|r
 Variables        : $mastery=$?s77220[${((100+$77220m3)/100)}][${1.00}]
 
@@ -94,8 +97,10 @@ Effects          :
                    Base Value: 0 | Scaled Value: 0 | SP Coefficient: 1.04406 | Target: Enemy (6)
 #3 (id=1155458)  : Apply Aura (6) | Dummy (4)
                    Base Value: 3 | Scaled Value: 3 | Target: Enemy (6)
-Description      : Inflicts impending doom upon the target, dealing $s2 Shadow damage immediately and $453567s1 Shadow damage to enemies within $453567a1 yards after $d. Damage is reduced beyond $s1 targets.
-
+Description      : Inflicts impending doom upon the target, dealing $s2 Shadow damage immediately and $453567s1 Shadow damage to enemies within $453567a1 yards after $d. Damage is reduced beyond $s1 targets.
+
+
+
 Consuming a Demonic Core reduces the duration of Doom by $s3 sec.
 Tooltip          : Doomed to explode violently, dealing $453567s1 Shadow damage to enemies within $453567a1 yards.
 
@@ -118,8 +123,10 @@ Attributes       : Not Shapeshifted (16), Allow Class Ability Procs (416)
 Effects          :
 #1 (id=267)      : School Damage (2): shadow
                    Base Value: 0 | Scaled Value: 0 (delta=0.05) | SP Coefficient: 0.702 | PvP Coefficient: 2.47 | Target: Enemy (6)
-Description      : Sends a shadowy bolt at the enemy, causing $s1 Shadow damage.$?c2[
-
+Description      : Sends a shadowy bolt at the enemy, causing $s1 Shadow damage.$?c2[
+
+
+
 |cFFFFFFFFGenerates 1 Soul Shard.|r][]
 
 Name             : Summon Imp (desc=Summon) (id=688) [Spell Family (5)] 
@@ -230,10 +237,14 @@ Effects          :
                    Base Value: -20 | Scaled Value: -20 | Misc Value: 1 | Target: Enemy (6)
 #2 (id=824003)   : Apply Aura (6) | Modify Critical Strike% (290)
                    Base Value: 0 | Scaled Value: 0 | Target: Enemy (6)
-Description      : Increases the time between an enemy's attacks by $s1% for $d.$?s103112[
-
-|CFFE55BB0Soulburn: Your Curse of Weakness will affect all enemies in a $104222A yard radius around your target.|R][]
-
+Description      : Increases the time between an enemy's attacks by $s1% for $d.$?s103112[
+
+
+
+|CFFE55BB0Soulburn: Your Curse of Weakness will affect all enemies in a $104222A yard radius around your target.|R][]
+
+
+
 |cFF8282FFCurses: A warlock can only have one Curse active per target.|r
 Tooltip          : Time between attacks increased by $w1%. $?e1[Chance to critically strike reduced by $w2%.][]
 
@@ -312,8 +323,10 @@ Effects          :
                    Base Value: 0 | Scaled Value: 0 | SP Coefficient: 0.030151 | PvP Coefficient: 0.772727 | Target: Enemy (6)
 #2 (id=198244)   : Apply Aura (6) | Periodic Dummy (226): every 2 seconds
                    Base Value: 0 | Scaled Value: 0 | Target: Enemy (6)
-Description      : Inflicts increasing agony on the target, causing up to ${$s1*$d/$t1*$u} Shadow damage over $d. Damage starts low and increases over the duration. Refreshing Agony maintains its current damage level.
-
+Description      : Inflicts increasing agony on the target, causing up to ${$s1*$d/$t1*$u} Shadow damage over $d. Damage starts low and increases over the duration. Refreshing Agony maintains its current damage level.
+
+
+
 |cFFFFFFFFAgony damage sometimes generates 1 Soul Shard.|r
 Tooltip          : Suffering $w1 Shadow damage every $t1 sec. Damage increases over time.
 
@@ -371,8 +384,10 @@ Effects          :
                    Base Value: 0 | Scaled Value: 0 | Trigger Spell: 22703 | Radius: 10 yards | Target: Unknown(87)
 #3 (id=268271)   : Unknown(148)
                    Base Value: 1 | Scaled Value: 1 | Trigger Spell: 111685 | Target: Unknown(87)
-Description      : Summons an Infernal from the Twisting Nether, impacting for $22703s1 Fire damage and stunning all enemies in the area for $22703d.
-
+Description      : Summons an Infernal from the Twisting Nether, impacting for $22703s1 Fire damage and stunning all enemies in the area for $22703d.
+
+
+
 The Infernal will serve you for $111685d, dealing ${$20153s1*(100+$137046s3)/100} damage to all nearby enemies every $19483t1 sec and generating $264365s1 Soul Shard Fragment every $264364t1 sec.
 
 Name             : Curse of Tongues (id=1714) [Spell Family (5)] 
@@ -395,10 +410,14 @@ Attributes       : Not Shapeshifted (16), Aura Bounce Fails Spell (157), Taps im
 Effects          :
 #1 (id=521)      : Apply Aura (6) | Unknown(355)
                    Base Value: -30 | Scaled Value: -30 | PvP Coefficient: 0.3334 | Target: Enemy (6)
-Description      : Forces the target to speak in Demonic, increasing the casting time of all spells by $s1% for $d.$?s103112[
-
-|CFFE55BB0Soulburn: Your Curse of Tongues will affect all enemies in a $104224A yard radius around your target.|R][]
-
+Description      : Forces the target to speak in Demonic, increasing the casting time of all spells by $s1% for $d.$?s103112[
+
+
+
+|CFFE55BB0Soulburn: Your Curse of Tongues will affect all enemies in a $104224A yard radius around your target.|R][]
+
+
+
 |cFF8282FFCurses: A warlock can only have one Curse active per target.|r
 Tooltip          : Speaking Demonic increasing casting time by $w1%.
 
@@ -437,10 +456,13 @@ Attributes       : Not Shapeshifted (16), Allow Class Ability Procs (416)
 Effects          :
 #1 (id=929)      : School Damage (2): fire
                    Base Value: 0 | Scaled Value: 0 (delta=0.05) | SP Coefficient: 0.4 | Target: Enemy (6)
-Description      : Deals $s1 Fire damage to a target.
-
+Description      : Deals $s1 Fire damage to a target.
+
+
+
 |cFF777777(Right-Click to toggle)|r
-Variables        : $mult=$?s56248[${1.20}][${1.00}]
+Variables        : $mult=$?s56248[${1.20}][${1.00}]
+
 $damage=${(($SP*0.50)*0.657)+$M1}
 
 Name             : Consuming Shadows (desc=Basic Attack) (id=3716) [Spell Family (57)] 
@@ -458,8 +480,10 @@ Attributes       : Initiates Combat (Enables Auto-Attack) (41), Allow Class Abil
 Effects          :
 #1 (id=1298)     : Health Leech (9)
                    Base Value: 0 | Scaled Value: 0 (delta=0.05) | SP Coefficient: 0.075 | Radius: 0 - 12 yards | Target: At Self (18) -> At Enemy in Area (16)
-Description      : Drains $s1 health from all nearby enemies.
-
+Description      : Drains $s1 health from all nearby enemies.
+
+
+
 |cFF777777(Right-Click to toggle)|r
 
 Name             : Shoot (id=5019) 
@@ -533,8 +557,10 @@ Effects          :
                    Base Value: 0 | Scaled Value: 0 | Misc Value: 5420 | Target: Unknown(87)
 #3 (id=291291)   : Apply Aura (6) | Periodic Dummy (226): every 1 seconds
                    Base Value: 0 | Scaled Value: 0 | Target: Self (1)
-Description      : Calls down a rain of hellfire the target location, dealing ${$42223m1*8} Fire damage over $d to enemies in the area.
-
+Description      : Calls down a rain of hellfire the target location, dealing ${$42223m1*8} Fire damage over $d to enemies in the area.
+
+
+
 |cFFFFFFFFThis spell is cast at a selected location.|r
 Tooltip          : $42223s1 Fire damage every $5740t2 sec.
 
@@ -557,8 +583,10 @@ Attributes       : Not Shapeshifted (16), Heartbeat Resist (30), No Threat (42),
 Effects          :
 #1 (id=2047)     : Dummy (3)
                    Base Value: 0 | Scaled Value: 0 | Mechanic: Flee | Target: Enemy (6)
-Description      : Strikes fear in the enemy, disorienting for $118699d. Damage may cancel the effect. Limit 1.$?a386648[
-
+Description      : Strikes fear in the enemy, disorienting for $118699d. Damage may cancel the effect. Limit 1.$?a386648[
+
+
+
 $@spelldesc386648][]
 Tooltip          : Disoriented.
 
@@ -579,8 +607,10 @@ Attributes       : Not Shapeshifted (16), No AutoCast (AI) (49), No Aura Icon (6
 Effects          :
 #1 (id=2130)     : Server Side Script (77)
                    Base Value: 20 | Scaled Value: 20 | SP Coefficient: 0.25 | Target: Self (1)
-Description      : Creates a Healthstone that can be consumed to restore $6262s1% health.$?a386646[
-
+Description      : Creates a Healthstone that can be consumed to restore $6262s1% health.$?a386646[
+
+
+
 $@spelldesc386646][]
 
 Name             : Soulstone (id=6203) 
@@ -644,8 +674,10 @@ Effects          :
                    Base Value: 2000 | Scaled Value: 2000
 #3 (id=831295)   : Dummy (3)
                    Base Value: 10000 | Scaled Value: 10000
-Description      : Burns the enemy's soul, dealing $s1 Fire damage and applying $?a445465[Wither][Immolate].
-
+Description      : Burns the enemy's soul, dealing $s1 Fire damage and applying $?a445465[Wither][Immolate].
+
+
+
 |cFFFFFFFFGenerates ${$281490s1/10} Soul Shard.|r
 Variables        : $cdr=${$s2/1000}
 
@@ -696,8 +728,10 @@ Effects          :
 #2 (id=910502)   : Apply Aura (6) | Modify Damage Taken% from Caster (270)
                    Base Value: 1 | Scaled Value: 1 | Misc Value: 0x7f | Target: Enemy (6)
                    Affected School(s): All
-Description      : Whips the enemy, reducing movement speed by $s1% and increasing damage taken by the demon by $s2% for $d, stacking ${$u-1} times.
-
+Description      : Whips the enemy, reducing movement speed by $s1% and increasing damage taken by the demon by $s2% for $d, stacking ${$u-1} times.
+
+
+
 |cFF777777(Right-Click to toggle)|r
 Tooltip          : Movement slowed by $s1% and damage taken from $@auracaster increased by $s2%.
 
@@ -750,8 +784,10 @@ Effects          :
                    Base Value: 0 | Scaled Value: 0 (delta=0.05) | SP Coefficient: 0.3 | Target: Enemy (6)
 #2 (id=113763)   : Dummy (3)
                    Base Value: 0 | Scaled Value: 0
-Description      : Lashes the target, dealing $s1 Shadow damage.
-
+Description      : Lashes the target, dealing $s1 Shadow damage.
+
+
+
 |cFF777777(Right-Click to toggle)|r
 
 Name             : Lesser Invisibility (desc=Special Ability) (id=7870) [Spell Family (57)] 
@@ -778,11 +814,16 @@ Effects          :
                    Base Value: 100 | Scaled Value: 100 | Target: Self (1)
 #2 (id=99024)    : Apply Aura (6) | Dummy (4)
                    Base Value: 1 | Scaled Value: 1 | Target: Self (1)
-Description      : Makes the $?s108499[Shivarra][Succubus] invisible for $7870d.  Not usable in combat. Any action will break the effect.
-
-|cFFFFFFFFAuto-Cast:|r
-Reapply when the $?s108499[Shivarra][Succubus] leaves combat.
-
+Description      : Makes the $?s108499[Shivarra][Succubus] invisible for $7870d.  Not usable in combat. Any action will break the effect.
+
+
+
+|cFFFFFFFFAuto-Cast:|r
+
+Reapply when the $?s108499[Shivarra][Succubus] leaves combat.
+
+
+
 |cFF777777(Right-Click to toggle)|r
 Tooltip          : Invisible.
 
@@ -807,11 +848,16 @@ Effects          :
                    Base Value: 0 | Scaled Value: 0 | Target: Enemy (6)
 #2 (id=9347)     : Apply Aura (6) | Taunt (11)
                    Base Value: 400 | Scaled Value: 400 | Target: Enemy (6)
-Description      : The $?s108499[Voidlord][Voidwalker] taunts the target to attack it for $d, and increases its threat against the target.
-
-|cFFFFFFFFAuto-Cast:|r
-Taunts the current target if it is not attacking the $?s108499[Voidlord][Voidwalker] and taunts any target who attacks its master.
-
+Description      : The $?s108499[Voidlord][Voidwalker] taunts the target to attack it for $d, and increases its threat against the target.
+
+
+
+|cFFFFFFFFAuto-Cast:|r
+
+Taunts the current target if it is not attacking the $?s108499[Voidlord][Voidwalker] and taunts any target who attacks its master.
+
+
+
 |cFF777777(Right-Click to toggle)|r
 Tooltip          : Taunted.
 
@@ -836,11 +882,16 @@ Effects          :
                    Base Value: 30 | Scaled Value: 30 | Target: Self (1)
 #2 (id=169199)   : Apply Aura (6) | Dummy (4)
                    Base Value: 30 | Scaled Value: 30 | Misc Value: 1 | Misc Value 2: 0x744 | Target: Self (1)
-Description      : Temporarily increases current and maximum health by $s1% for $d.
-
-|cFFFFFFFFAuto-Cast:|r
-Use this ability when below 20% health.
-
+Description      : Temporarily increases current and maximum health by $s1% for $d.
+
+
+
+|cFFFFFFFFAuto-Cast:|r
+
+Use this ability when below 20% health.
+
+
+
 |cFF777777(Right-Click to toggle)|r
 Tooltip          : Maximum health increased by $s1%.
 
@@ -871,8 +922,10 @@ Effects          :
                    Base Value: 50 | Scaled Value: 50
 #4 (id=1162782)  : Dummy (3)
                    Base Value: 20 | Scaled Value: 20 | Target: Enemy (6)
-Description      : Blasts a target for $s1 Shadowflame damage, gaining $s3% critical strike chance on targets that have $s4% or less health.
-
+Description      : Blasts a target for $s1 Shadowflame damage, gaining $s3% critical strike chance on targets that have $s4% or less health.
+
+
+
 |cFFFFFFFFRestores ${$245731s1/10} Soul Shard and refunds a charge if the target dies within $d.|r
 Tooltip          : If the target dies and yields experience or honor, Shadowburn restores ${$245731s1/10} Soul Shard and refunds a charge.
 
@@ -910,10 +963,14 @@ Attributes       : Not Shapeshifted (16), No AutoCast (AI) (49), Show Mechanic a
 Effects          :
 #1 (id=9553)     : School Damage (2): fire
                    Base Value: 0 | Scaled Value: 0 (delta=0.05) | SP Coefficient: 2.74197 | PvP Coefficient: 0.576924 | Chain Multiplier: 1 | Chain Targets: 1 | Target: Enemy (6)
-Description      : Triggers an explosion on the target, dealing $s1 Fire damage.$?s196406[
-
-Reduces the cast time of your next Incinerate or Chaos Bolt by $117828s1% for $117828d.][]
-
+Description      : Triggers an explosion on the target, dealing $s1 Fire damage.$?s196406[
+
+
+
+Reduces the cast time of your next Incinerate or Chaos Bolt by $117828s1% for $117828d.][]
+
+
+
 |cFFFFFFFFGenerates $245330s1 Soul Shard Fragments.|r
 
 Name             : Immolation (id=19483) [Spell Family (5)] 
@@ -951,7 +1008,8 @@ Effects          :
                    Base Value: 1 | Scaled Value: 1 | Misc Value: 1 | Target: Enemy (6)
 #2 (id=10728)    : None (0)
                    Base Value: 234 | Scaled Value: 234
-Description      : Purges $19505s1 beneficial magic $19505leffect:effects; from an enemy. If an effect is devoured, the $?s219450[Observer][Felhunter]$?s56249[ and Warlock][] will be healed for $19658m1 and gain 60 Fel Energy.
+Description      : Purges $19505s1 beneficial magic $19505leffect:effects; from an enemy. If an effect is devoured, the $?s219450[Observer][Felhunter]$?s56249[ and Warlock][] will be healed for $19658m1 and gain 60 Fel Energy.
+
 
 
 Name             : Spell Lock (desc=Command Demon Ability) (id=19647) [Spell Family (57)] 
@@ -1128,11 +1186,15 @@ Effects          :
                    Base Value: 0 | Scaled Value: 0 | Radius: 0 - 8 yards | Target: At Enemy (53) -> At Enemy in Area (16)
 #3 (id=154322)   : Apply Aura (6) | Dummy (4) | Attributes: Compute Points Only At Cast Time (15)
                    Base Value: 0 | Scaled Value: 0 | Radius: 0 - 8 yards | Target: At Enemy (53) -> At Enemy in Area (16)
-Description      : Embeds a demon seed in the enemy target that will explode after $d, dealing $27285s1 Shadow damage to all enemies within $27285A1 yards and applying $?a445465[Wither][Corruption] to them.
-
+Description      : Embeds a demon seed in the enemy target that will explode after $d, dealing $27285s1 Shadow damage to all enemies within $27285A1 yards and applying $?a445465[Wither][Corruption] to them.
+
+
+
 The seed will detonate early if the target is hit by other detonations, or takes ${$SPS*$s1/100} damage from your spells.
-Tooltip          : Embeded with a demon seed that will soon explode, dealing Shadow damage to the caster's enemies within $27285A1 yards, and applying Corruption to them.
-
+Tooltip          : Embeded with a demon seed that will soon explode, dealing Shadow damage to the caster's enemies within $27285A1 yards, and applying Corruption to them.
+
+
+
 The seed will detonate early if the target is hit by other detonations, or takes $w3 damage from your spells.
 
 Name             : Seed of Corruption (id=27285) [Spell Family (5)] 
@@ -1227,8 +1289,10 @@ Effects          :
                    Base Value: 0 | Scaled Value: 0 (delta=0.05) | SP Coefficient: 2.70423 | PvP Coefficient: 0.766667 | Radius: 0 - 8 yards | Target: At Enemy (53) -> At Enemy in Area (16)
 #3 (id=371982)   : Dummy (3)
                    Base Value: 100 | Scaled Value: 100 | Target: Self (1)
-Description      : Draws fire toward the enemy, dealing $s2 Fire damage.
-
+Description      : Draws fire toward the enemy, dealing $s2 Fire damage.
+
+
+
 |cFFFFFFFFGenerates $?a387173[${$244670s1*(1+($387173s1/100))} Soul Shard Fragments and an additional ${1*(1+($387173s1/100))} on critical strikes.][$244670s1 Soul Shard Fragments and an additional 1 on critical strikes.]|r
 
 Name             : Unstable Affliction (id=30108) [Spell Family (5)] 
@@ -1254,12 +1318,18 @@ Effects          :
                    Base Value: 5 | Scaled Value: 5 | Target: Enemy (6)
 #3 (id=707282)   : Dummy (3)
                    Base Value: 10 | Scaled Value: 10 | Target: Enemy (6)
-Description      : Afflicts the target with $233490o1 Shadow damage over $233490d. You may afflict a target with up to $s2 Unstable Afflictions at once.
-
-You deal $s3% increased damage to targets affected by your Unstable Affliction.
-
-If dispelled, deals ${$233490s1*$s1/100} damage to the dispeller and silences them for $196364d.$?a231791[
-
+Description      : Afflicts the target with $233490o1 Shadow damage over $233490d. You may afflict a target with up to $s2 Unstable Afflictions at once.
+
+
+
+You deal $s3% increased damage to targets affected by your Unstable Affliction.
+
+
+
+If dispelled, deals ${$233490s1*$s1/100} damage to the dispeller and silences them for $196364d.$?a231791[
+
+
+
 |cFFFFFFFFRefunds $231791m1 Soul $LShard:Shards; if the target dies while afflicted.|r][]
 
 Name             : Summon Felguard (desc=Summon) (id=30146) [Spell Family (5)] 
@@ -1306,14 +1376,20 @@ Effects          :
                    Base Value: 0 | Scaled Value: 0 | Trigger Spell: 30153 | Target: Enemy (6)
 #3 (id=92765)    : Apply Aura (6) | Increase Speed% (31)
                    Base Value: 30 | Scaled Value: 30 | Target: Self (1)
-Description      : The Felguard charges an enemy, causing $<damage> Physical damage and increasing its movement speed by $30151s3% for $30151d.
-
-|cFFFFFFFFAuto-Cast:|r
-Use anytime the $?s108499[Wrathguard][Felguard]'s target is further than 8 yards away.
-
+Description      : The Felguard charges an enemy, causing $<damage> Physical damage and increasing its movement speed by $30151s3% for $30151d.
+
+
+
+|cFFFFFFFFAuto-Cast:|r
+
+Use anytime the $?s108499[Wrathguard][Felguard]'s target is further than 8 yards away.
+
+
+
 |cFF777777(Right-Click to toggle)|r
 Tooltip          : Movement speed increased by $s3%.
-Variables        : $demoMastery=$?s77219[${1+0.01*$77219m1}][${1}]
+Variables        : $demoMastery=$?s77219[${1+0.01*$77219m1}][${1}]
+
 $damage=${0.1326*($SP*0.5)*$<demoMastery>*(1+$@versadmg)}
 
 Name             : Pursuit (id=30153) 
@@ -1330,11 +1406,16 @@ Attributes       : Is Ability (4), Not Shapeshifted (16), Do Not Sheath (18), No
 Effects          :
 #1 (id=19741)    : School Damage (2): physical
                    Base Value: 0 | Scaled Value: 0 (delta=0.05) | AP Coefficient: 0.1326 | Target: Enemy (6)
-Description      : Charge an enemy, instantly causing $30153m1% weapon damage and increasing the $?s108499[Wrathguard][Felguard]'s movement speed by $30151s3% for $30151d.
-
-|cFFFFFFFFAuto-Cast:|r
-Use anytime the $?s108499[Wrathguard][Felguard]'s target is further than 8 yards away.
-
+Description      : Charge an enemy, instantly causing $30153m1% weapon damage and increasing the $?s108499[Wrathguard][Felguard]'s movement speed by $30151s3% for $30151d.
+
+
+
+|cFFFFFFFFAuto-Cast:|r
+
+Use anytime the $?s108499[Wrathguard][Felguard]'s target is further than 8 yards away.
+
+
+
 |cFF777777(Right-Click to toggle)|r
 
 Name             : Legion Strike (desc=Basic Attack) (id=30213) [Spell Family (57)] 
@@ -1361,11 +1442,14 @@ Effects          :
                    Affected School(s): All
 #3 (id=319698)   : Dummy (3)
                    Base Value: 0 | Scaled Value: 0 | Target: Enemy (6)
-Description      : A strong attack that deals $<damage> damage to all enemies in front of it, and reduces the effectiveness of any healing the victim receives by $s2% for $d.
-
+Description      : A strong attack that deals $<damage> damage to all enemies in front of it, and reduces the effectiveness of any healing the victim receives by $s2% for $d.
+
+
+
 |cFF777777(Right-Click to toggle)|r
 Tooltip          : Effectiveness of any healing reduced by $w2%.
-Variables        : $demoMastery=$?s77219[${1+0.01*$77219m1}][${1}]
+Variables        : $demoMastery=$?s77219[${1+0.01*$77219m1}][${1}]
+
 $damage=${0.816*($SP*0.5)*$<demoMastery>*(1+$@versadmg)}
 
 Name             : Shadowfury (id=30283) [Spell Family (5)] 
@@ -1434,7 +1518,8 @@ Effects          :
 #5 (id=879205)   : Apply Aura (6) | Modify Damage Taken% (87)
                    Base Value: 20 | Scaled Value: 20 | PvP Coefficient: 0 | Misc Value: 0x7f | Target: Self (1)
                    Affected School(s): All
-Description      : Reduces the damage your pet takes from area of effect attacks by an additional $s1%.
+Description      : Reduces the damage your pet takes from area of effect attacks by an additional $s1%.
+
 Reduces the range at which enemies detect your pet.
 
 Name             : Shadow Embrace (id=32388) [Spell Family (5), Passive] 
@@ -1571,8 +1656,10 @@ Effects          :
                    Base Value: 12 | Scaled Value: 12 | Target: Enemy (6)
 #4 (id=889617)   : Apply Aura (6) | Modify Damage Taken% from Caster Guardian (380)
                    Base Value: 12 | Scaled Value: 12 | Target: Enemy (6)
-Description      : A ghostly soul haunts the target, dealing $s1 Shadow damage and increasing your damage dealt to the target by $s2% for $d.
-
+Description      : A ghostly soul haunts the target, dealing $s1 Shadow damage and increasing your damage dealt to the target by $s2% for $d.
+
+
+
 If the target dies, Haunt's cooldown is reset.
 Tooltip          : Taking $s2% increased damage from the Warlock. Haunt's cooldown will be reset on death.
 
@@ -1592,8 +1679,10 @@ Attributes       : Is Ability (4), Do Not Sheath (18), Initiates Combat (Enables
 Effects          :
 #1 (id=46748)    : School Damage (2): shadow
                    Base Value: 0 | Scaled Value: 0 (delta=0.05) | SP Coefficient: 0.3 | Target: Enemy (6)
-Description      : Bites the enemy, causing $s1 Shadow damage.
-
+Description      : Bites the enemy, causing $s1 Shadow damage.
+
+
+
 |cFF777777(Right-Click to toggle)|r
 
 Name             : Horrify (id=56244) [Spell Family (5), Passive, Hidden] 
@@ -1653,8 +1742,10 @@ Effects          :
 #2 (id=127212)   : Apply Aura (6) | Add Flat Modifier (107): Spell Effect 1 (3)
                    Base Value: -500 | Scaled Value: -500 | Misc Value: 3 | Target: Self (1)
                    Family Flags: 62
-Description      : Your Eye of Kilrogg is no longer stealthed and can now place your Demonic Circle. You must be within line of sight of the Eye of Kilrogg to place the Demonic Circle.
-
+Description      : Your Eye of Kilrogg is no longer stealthed and can now place your Demonic Circle. You must be within line of sight of the Eye of Kilrogg to place the Demonic Circle.
+
+
+
 The movement speed of your Eye of Kilrogg is increased by |cFFFFFFFF${$s1}%|r.
 
 Name             : Glyph of Soulwell (id=58094) [Spell Family (5), Passive, Hidden] 
@@ -2065,7 +2156,8 @@ Effects          :
                    Base Value: 0 | Scaled Value: 0 | Target: Self (1)
 Description      : The Felguard recklessly swings its weapon, striking all nearby enemies within $89753A1 yards for $<damage> Physical damage every $t1 sec for $89751d. The Felguard cannot take any other action during Felstorm. Deals reduced damage beyond $89753s3 targets.
 Tooltip          : Striking for $<damage> Physical damage every $t1 sec. Unable to use other abilities.
-Variables        : $demoMastery=$?s77219[${1+0.01*$77219m1}][${1}]
+Variables        : $demoMastery=$?s77219[${1+0.01*$77219m1}][${1}]
+
 $damage=${0.33*($SP*0.5)*$<demoMastery>*(1+$@versadmg)}
 
 Name             : Felstorm (id=89753) [Spell Family (5)] 
@@ -2135,11 +2227,16 @@ Effects          :
                    Base Value: 0 | Scaled Value: 0 | Misc Value: 12 | Target: Self (1)
 #3 (id=97727)    : Trigger Spell (64): Flee
                    Base Value: 1 | Scaled Value: 1 | Trigger Spell: 93282 | Target: Self (1)
-Description      : Escapes to the Master, removing all stuns and roots from himself.
-
-|cFFFFFFFFAuto-Cast:|r
-Cast when the Imp is stunned or rooted.
-
+Description      : Escapes to the Master, removing all stuns and roots from himself.
+
+
+
+|cFFFFFFFFAuto-Cast:|r
+
+Cast when the Imp is stunned or rooted.
+
+
+
 |cFF777777(Right-Click to toggle)|r
 
 Name             : Singe Magic (desc=Command Demon Ability) (id=89808) [Spell Family (57)] 
@@ -2158,11 +2255,16 @@ Attributes       : Not Shapeshifted (16), No Reflection (39), Allow While Not Sh
 Effects          :
 #1 (id=92735)    : Dispel (38)
                    Base Value: 1 | Scaled Value: 1 | Misc Value: 1 | Target: Friendly (21)
-Description      : Burns harmful spells, removing $89808s1 harmful Magic effect from an ally.
-
-|cFFFFFFFFAuto-Cast:|r
-Cast upon master when $ghe:she; is unable to cast spells due to a Magic effect.
-
+Description      : Burns harmful spells, removing $89808s1 harmful Magic effect from an ally.
+
+
+
+|cFFFFFFFFAuto-Cast:|r
+
+Cast upon master when $ghe:she; is unable to cast spells due to a Magic effect.
+
+
+
 |cFF777777(Right-Click to toggle)|r
 
 Name             : Flee (desc=Special Ability) (id=93282) [Spell Family (5)] 
@@ -2372,7 +2474,8 @@ Effects          :
 #5 (id=1148809)  : Apply Aura (6) | Unknown(285)
                    Base Value: 0 | Scaled Value: 0 | Trigger Spell: 449587 | Target: Self (1)
 Description      : Hardens your skin, reducing all damage you take by $s3% and granting immunity to interrupt, silence, and pushback effects for $d.
-Tooltip          : Damage taken reduced by $w3%
+Tooltip          : Damage taken reduced by $w3%
+
 Immune to interrupt and silence effects.
 
 Name             : Hand of Gul'dan (id=105174) [Spell Family (5)] 
@@ -2393,8 +2496,10 @@ Attributes       : Not Shapeshifted (16), No Reflection (39), Always Hit (114), 
 Effects          :
 #1 (id=114885)   : Dummy (3)
                    Base Value: 3 | Scaled Value: 3 | Radius: 8 yards | Target: Enemy (6)
-Description      : Calls down a demonic meteor full of Wild Imps which burst forth to attack the target.
-
+Description      : Calls down a demonic meteor full of Wild Imps which burst forth to attack the target.
+
+
+
 Deals up to ${$m1*$86040m1} Shadowflame damage on impact to all enemies within $86040A1 yds of the target$?s196283[, applies Doom to each target,][] and summons up to ${$m1*$104317m2} Wild Imps, based on Soul Shards consumed.
 
 Name             : Soul Leech (desc=Talent) (id=108366) [Spell Family (5)] 
@@ -2477,8 +2582,10 @@ Effects          :
                    Base Value: 3 | Scaled Value: 3 | Misc Value: 32 | Target: Self (1)
                    Affected Spells: Soul Link (108446), Soul Link (108447), Fel Synergy (389372)
                    Family Flags: 78
-Description      : $s2% of all damage you take is taken by your demon pet instead. $?a137044[][
-
+Description      : $s2% of all damage you take is taken by your demon pet instead. $?a137044[][
+
+
+
 While Grimoire of Sacrifice is active, your Stamina is increased by $s3%.]
 
 Name             : Dark Pact (id=108416) [Spell Family (5)] 
@@ -2533,7 +2640,8 @@ Effects          :
 #4 (id=1041014)  : Apply Aura (6) | Dummy (4)
                    Base Value: 0 | Scaled Value: 0 | Target: Self (1)
 Description      : $@spelldesc108415
-Tooltip          : $s1% of all damage taken is split with the Warlock's summoned demon.  
+Tooltip          : $s1% of all damage taken is split with the Warlock's summoned demon.  
+
 The Warlock is healed for $s2% and your demon is healed for $s3% of all absorption granted by Soul Leech.
 
 Name             : Soul Link (id=108447) [Spell Family (5)] 
@@ -2569,12 +2677,18 @@ Attributes       : Passive (6), Do Not Log (8), No Aura Cancel (31), No Aura Ico
 Effects          :
 #1 (id=119638)   : Apply Aura (6) | Dummy (4)
                    Base Value: 25 | Scaled Value: 25 | Target: Self (1)
-Description      : Summons a second demon which fights for you for $s1 sec and deals $216187s1% increased damage. 1.5 min cooldown. The demon will immmediately use one of its special abilities when summoned:
-
-$@spellname111859: Cleanses 1 harmful Magic effect from you.
-$@spellname111895 Taunts its target.
-$@spellname111896 Seduces its target.
-$@spellname111897 Interrupts its target.$?c2[
+Description      : Summons a second demon which fights for you for $s1 sec and deals $216187s1% increased damage. 1.5 min cooldown. The demon will immmediately use one of its special abilities when summoned:
+
+
+
+$@spellname111859: Cleanses 1 harmful Magic effect from you.
+
+$@spellname111895 Taunts its target.
+
+$@spellname111896 Seduces its target.
+
+$@spellname111897 Interrupts its target.$?c2[
+
 $@spellname111898 Stuns its target.][]
 
 Name             : Grimoire of Sacrifice (id=108503) [Spell Family (5)] 
@@ -2596,8 +2710,10 @@ Effects          :
                    Base Value: 0 | Scaled Value: 0 | Target: Active Pet (5)
 #2 (id=124409)   : Trigger Spell (64): Grimoire of Sacrifice
                    Base Value: 0 | Scaled Value: 0 | Trigger Spell: 196099 | Target: Self (1)
-Description      : Sacrifices your demon pet for power, gaining its command demon ability, and causing your spells to sometimes also deal $196100s1 additional Shadow damage.
-
+Description      : Sacrifices your demon pet for power, gaining its command demon ability, and causing your spells to sometimes also deal $196100s1 additional Shadow damage.
+
+
+
 Lasts $196099d or until you summon a demon pet.
 
 Name             : Nightfall (id=108558) [Spell Family (5), Passive] 
@@ -2612,8 +2728,10 @@ Attributes       : Is Ability (4), Passive (6), Do Not Log (8), Allow Proc While
 Effects          :
 #1 (id=119700)   : Apply Aura (6) | Dummy (4)
                    Base Value: 0 | Scaled Value: 0 | Target: Self (1)
-Description      : $?a445465[Wither][Corruption] damage has a chance to cause your next Shadow Bolt or Drain Soul to deal $264571s2% increased damage. 
-
+Description      : $?a445465[Wither][Corruption] damage has a chance to cause your next Shadow Bolt or Drain Soul to deal $264571s2% increased damage. 
+
+
+
 Shadow Bolt is instant cast and Drain Soul channels $264571s3% faster when affected.
 
 Name             : Burning Rush (id=111400) [Spell Family (5)] 
@@ -2707,8 +2825,10 @@ Effects          :
                    Base Value: 0 | Scaled Value: 0 | Target: Enemy (6)
 #2 (id=124417)   : Summon (28)
                    Base Value: 0 | Scaled Value: 0 | Misc Value: 416 | Misc Value 2: 0xcf2 | Target: Summon from (32)
-Description      : Summons an Imp who attacks the target for $108501s1 sec.
-
+Description      : Summons an Imp who attacks the target for $108501s1 sec.
+
+
+
 Imps cast ranged Firebolts and cleanse a hostile magic effect from their master.
 
 Name             : Grimoire: Voidwalker (desc=Summon) (id=111895) 
@@ -2731,8 +2851,10 @@ Effects          :
                    Base Value: 0 | Scaled Value: 0 | Target: Enemy (6)
 #2 (id=124458)   : Summon (28)
                    Base Value: 0 | Scaled Value: 0 | Misc Value: 1860 | Misc Value 2: 0xcf4 | Radius: 5 yards | Target: Summon from (32)
-Description      : Summons a Voidwalker who attacks the target for $108501s1 sec.
-
+Description      : Summons a Voidwalker who attacks the target for $108501s1 sec.
+
+
+
 Voidwalkers will taunt their target when summoned.
 
 Name             : Grimoire: Succubus (desc=Summon) (id=111896) 
@@ -2755,8 +2877,10 @@ Effects          :
                    Base Value: 0 | Scaled Value: 0 | Target: Enemy (6)
 #2 (id=124465)   : Summon (28)
                    Base Value: 0 | Scaled Value: 0 | Misc Value: 1863 | Misc Value 2: 0xcf3 | Radius: 5 yards | Target: Summon from (32)
-Description      : Summons a Succubus who attacks the target for $108501s1 sec.
-
+Description      : Summons a Succubus who attacks the target for $108501s1 sec.
+
+
+
 Succubi will seduce their target if it is Humanoid.
 
 Name             : Grimoire: Felhunter (desc=Summon) (id=111897) 
@@ -2779,8 +2903,10 @@ Effects          :
                    Base Value: 0 | Scaled Value: 0 | Target: Enemy (6)
 #2 (id=124464)   : Summon (28)
                    Base Value: 0 | Scaled Value: 0 | Misc Value: 417 | Misc Value 2: 0xcb8 | Radius: 5 yards | Target: Summon from (32)
-Description      : Summons a Felhunter who attacks the target for $108501s1 sec.
-
+Description      : Summons a Felhunter who attacks the target for $108501s1 sec.
+
+
+
 Felhunters will Spell Lock their target when summoned.
 
 Name             : Grimoire: Felguard (desc=Summon) (id=111898) [Spell Family (5)] 
@@ -2804,8 +2930,10 @@ Effects          :
                    Base Value: 15 | Scaled Value: 15 | Target: Enemy (6)
 #2 (id=124456)   : Summon (28)
                    Base Value: 0 | Scaled Value: 0 | Misc Value: 17252 | Misc Value 2: 0xcf1 | Radius: 15 yards | Target: Unknown(47)
-Description      : Summons a Felguard who attacks the target for $d that deals $216187s1% increased damage.
-
+Description      : Summons a Felguard who attacks the target for $d that deals $216187s1% increased damage.
+
+
+
 This Felguard will stun and interrupt their target when summoned.
 
 Name             : Threatening Presence (desc=Special Ability) (id=112042) [Spell Family (57)] 
@@ -2824,11 +2952,16 @@ Aura Interrupt   : Enter World (22)
 Effects          :
 #1 (id=124613)   : Apply Aura (6) | Threat (10)
                    Base Value: 400 | Scaled Value: 400 | Misc Value: 127 | Target: Self (1)
-Description      : Intimidates any target the Voidwalker attacks, increasing threat generation.
-
-|cFFFFFFFFAuto-Cast:|r
-Always keep this effect active.
-
+Description      : Intimidates any target the Voidwalker attacks, increasing threat generation.
+
+
+
+|cFFFFFFFFAuto-Cast:|r
+
+Always keep this effect active.
+
+
+
 |cFF777777(Right-Click to toggle)|r
 Tooltip          : Increases your threat generation while active.
 
@@ -2852,9 +2985,12 @@ Aura Interrupt   : Change Specialization (38), Raid Encounter Start or M+ Start 
 Effects          :
 #1 (id=126897)   : Apply Aura (6) | Modify Critical Strike% (290)
                    Base Value: 30 | Scaled Value: 30 | Misc Value: 7 | Target: Self (1)
-Description      : Infuses your soul with unstable power, increasing your critical strike chance by $113858s1% for $113858d.$?s56228[
-
-|cFFFFFFFFPassive:|r
+Description      : Infuses your soul with unstable power, increasing your critical strike chance by $113858s1% for $113858d.$?s56228[
+
+
+
+|cFFFFFFFFPassive:|r
+
 Increases your critical strike chance by ${$113858m1/$56228m1}%. This effect is disabled while on cooldown.][]
 Tooltip          : Critical strike chance increased by $w1%.
 
@@ -3111,12 +3247,18 @@ Attributes       : Not Shapeshifted (16), Allow While Mounted (24), Allow While 
 Effects          :
 #1 (id=139028)   : Dummy (3)
                    Base Value: 0 | Scaled Value: 0 | Target: Self (1)
-Description      : Commands your demon to perform its most powerful ability. This spell will transform based on your active pet. 
-$?s30146[
-Felguard: $@spellname89766][]
-Felhunter: $@spellname19647
-Voidwalker: $@spellname17767
-Incubus/Succubus: $@spellname6358
+Description      : Commands your demon to perform its most powerful ability. This spell will transform based on your active pet. 
+
+$?s30146[
+
+Felguard: $@spellname89766][]
+
+Felhunter: $@spellname19647
+
+Voidwalker: $@spellname17767
+
+Incubus/Succubus: $@spellname6358
+
 Imp: $@spellname89808
 
 Name             : Singe Magic (desc=Command Demon Ability) (id=119905) [Spell Family (5)] 
@@ -3290,11 +3432,16 @@ Aura Interrupt   : Enter World (22)
 Effects          :
 #1 (id=175237)   : Apply Aura (6) | Threat (10)
                    Base Value: 400 | Scaled Value: 400 | Misc Value: 127 | Target: Self (1)
-Description      : Intimidates any target the Felguard attacks, increasing threat generation.
-
-|cFFFFFFFFAuto-Cast:|r
-Always keep this effect active.
-
+Description      : Intimidates any target the Felguard attacks, increasing threat generation.
+
+
+
+|cFFFFFFFFAuto-Cast:|r
+
+Always keep this effect active.
+
+
+
 |cFF777777(Right-Click to toggle)|r
 Tooltip          : Increases your threat generation while active.
 
@@ -3598,7 +3745,6 @@ Description      : You are able to maintain control over even greater demons ind
 
 Name             : Cataclysm (id=152108) [Spell Family (5)] 
 Talent Entry     : Destruction [tree=spec, row=3, col=5, max_rank=1, req_points=0]
-                 : Destruction [tree=spec, row=3, col=5, max_rank=1, req_points=0]
 Class            : Warlock
 School           : Shadowflame
 Spell Type       : Magic
@@ -3638,7 +3784,8 @@ Effects          :
                    Affected Spells: Shadowburn (17877), Incinerate (29722), Chaos Bolt (116858), Incinerate (244670), Infernal Bolt (434506)
                    Family Flags: 7, 38, 45
 Description      : $@spelldesc348
-Tooltip          : Suffering $w1 Fire damage every $t1 sec.$?a339892[ 
+Tooltip          : Suffering $w1 Fire damage every $t1 sec.$?a339892[ 
+
 Damage taken by Chaos Bolt and Incinerate increased by $w2%.][]
 Variables        : $mastery=$?s77220[${((100+$77220m3)/100)}][${1.00}]
 
@@ -3713,18 +3860,29 @@ Effects          :
 #4 (id=242704)   : Apply Aura (6) | Modify Damage Taken% (87)
                    Base Value: -20 | Scaled Value: -20 | Misc Value: 0x1 | Target: Self (1)
                    Affected School(s): Physical
-Description      : Intimidates any target you attack, increasing your threat generation.
-
-Also increases chance to dodge and parry by $s2%, and reduces physical damage taken by $s4%.
-
-|cFFFFFFFFAuto-Cast:|r
-Always keep this effect active.
-
+Description      : Intimidates any target you attack, increasing your threat generation.
+
+
+
+Also increases chance to dodge and parry by $s2%, and reduces physical damage taken by $s4%.
+
+
+
+|cFFFFFFFFAuto-Cast:|r
+
+Always keep this effect active.
+
+
+
 |cFF777777(Right-Click to toggle)|r
-Tooltip          : Threat generation increased.
-
-Dodge and Parry chance increased by $s2%.
-
+Tooltip          : Threat generation increased.
+
+
+
+Dodge and Parry chance increased by $s2%.
+
+
+
 Physical damage taken reduced by $s4%.
 
 Name             : Seethe (desc=Special Ability) (id=171014) [Spell Family (57)] 
@@ -3748,11 +3906,16 @@ Effects          :
                    Base Value: 0 | Scaled Value: 0 | Target: Enemy (6)
 #2 (id=242712)   : Apply Aura (6) | Taunt (11)
                    Base Value: 400 | Scaled Value: 400 | Target: Enemy (6)
-Description      : The $?s108499[Abyssal][Infernal] taunts the target to attack it.
-
-|cFFFFFFFFAuto-Cast:|r
-Taunts the current target if it is not attacking the $?s108499[Abyssal][Infernal] and taunts any target who attacks its master.
-
+Description      : The $?s108499[Abyssal][Infernal] taunts the target to attack it.
+
+
+
+|cFFFFFFFFAuto-Cast:|r
+
+Taunts the current target if it is not attacking the $?s108499[Abyssal][Infernal] and taunts any target who attacks its master.
+
+
+
 |cFF777777(Right-Click to toggle)|r
 Tooltip          : Taunted.
 
@@ -3793,11 +3956,16 @@ Attributes       : Not Shapeshifted (16), No Reflection (39), Allow Class Abilit
 Effects          :
 #1 (id=242726)   : Dispel (38)
                    Base Value: 1 | Scaled Value: 1 | Misc Value: 1 | Target: Enemy (6)
-Description      : Purges $s1 beneficial magic effect from an enemy.
-
-|cFFFFFFFFAuto-Cast:|r
-Use on the Infernal's current target.
-
+Description      : Purges $s1 beneficial magic effect from an enemy.
+
+
+
+|cFFFFFFFFAuto-Cast:|r
+
+Use on the Infernal's current target.
+
+
+
 |cFF777777(Right-Click to toggle)|r
 
 Name             : Shadow Lock (desc=Special Ability) (id=171138) [Spell Family (57)] 
@@ -4041,8 +4209,10 @@ Effects          :
 #3 (id=1039953)  : Apply Aura (6) | Modify Total Stat% (137)
                    Base Value: 5 | Scaled Value: 5 | Stat: Sta | Target: Self (1)
 Description      : $@spelldesc108503
-Tooltip          : Sacrificed your demon pet to gain its command demon ability.
-
+Tooltip          : Sacrificed your demon pet to gain its command demon ability.
+
+
+
 Your spells sometimes deal additional Shadow damage.
 
 Name             : Grimoire of Sacrifice (id=196100) [Spell Family (5)] 
@@ -4100,8 +4270,10 @@ Effects          :
                    Base Value: 15 | Scaled Value: 15 | Misc Value: 22 | Target: Self (1)
                    Affected Spells: Corruption (172), Corruption (146739), Deliberate Corruption (367831), Wither (445468), Wither (445474)
                    Family Flags: 1
-Description      : $?a445465[Wither][Corruption] is now permanent and deals $s2% increased damage.
-
+Description      : $?a445465[Wither][Corruption] is now permanent and deals $s2% increased damage.
+
+
+
 Duration reduced to $s1 sec against players.
 
 Name             : Sow the Seeds (id=196226) [Spell Family (5), Passive] 
@@ -4439,8 +4611,10 @@ Effects          :
                    Base Value: 24710 | Scaled Value: 24710 | Target: Enemy (6)
 #2 (id=372097)   : Energize Power (30)
                    Base Value: 3 | Scaled Value: 3 | Resource: soul_shard | Target: Self (1)
-Description      : Rips a hole in time and space, opening a portal that damages your target.
-
+Description      : Rips a hole in time and space, opening a portal that damages your target.
+
+
+
 |cFFFFFFFFGenerates $s2 Soul Shard Fragments.|r
 
 Name             : Shadowy Inspiration (id=196606) [Spell Family (5)] 
@@ -4527,12 +4701,18 @@ Effects          :
                    Base Value: 100 | Scaled Value: 100 | PvP Coefficient: 0.5
 #3 (id=734824)   : Dummy (3)
                    Base Value: 20 | Scaled Value: 20
-Description      : $?s388667[][Replaces Shadow Bolt.
-
-]Drains the target's soul, causing $o1 Shadow damage over $d.
-
-Damage is increased by $s2% against enemies below $s3% health.
-
+Description      : $?s388667[][Replaces Shadow Bolt.
+
+
+
+]Drains the target's soul, causing $o1 Shadow damage over $d.
+
+
+
+Damage is increased by $s2% against enemies below $s3% health.
+
+
+
 |cFFFFFFFFGenerates 1 Soul Shard if the target dies during this effect.|r
 Tooltip          : Suffering $w1 Shadow damage every $t1 seconds.
 
@@ -4733,8 +4913,10 @@ Effects          :
                    Base Value: 45 | Scaled Value: 45 | Target: Self (1)
 #4 (id=734780)   : Apply Aura (6) | Dummy (4)
                    Base Value: 20 | Scaled Value: 20 | Target: Self (1)
-Description      : Summons a Darkglare from the Twisting Nether that extends the duration of your damage over time effects on all enemies by $s2 sec.
-
+Description      : Summons a Darkglare from the Twisting Nether that extends the duration of your damage over time effects on all enemies by $s2 sec.
+
+
+
 The Darkglare will serve you for $d, blasting its target for $205231s1 Shadow damage, increased by $s3% for every damage over time effect you have active on their current target.
 Tooltip          : Summons a Darkglare from the Twisting Nether that blasts its target for Shadow damage, dealing increased damage for every damage over time effect you have active on their current target.
 
@@ -5074,7 +5256,8 @@ Effects          :
                    Base Value: 125 | Scaled Value: 125 | Misc Value: 0x7f | Target: Self (1)
                    Affected School(s): All
 Description      : $@spelldesc108501
-Tooltip          : Summoned by a Grimoire of Service.
+Tooltip          : Summoned by a Grimoire of Service.
+
 Damage done increased by $s1%.
 
 Name             : Reap Souls (desc=Artifact) (id=216698) 
@@ -5090,8 +5273,10 @@ Attributes       : Allow Class Ability Procs (416)
 Effects          :
 #1 (id=322412)   : Dummy (3)
                    Base Value: 0 | Scaled Value: 0 | Target: Self (1)
-Description      : Consume all Tormented Souls collected by |cFFFFCC99Ulthalesh|r, increasing your damage by $216708s1% and doubling the effect of all of |cFFFFCC99Ulthalesh|r's other traits for $216708d per soul consumed.
-
+Description      : Consume all Tormented Souls collected by |cFFFFCC99Ulthalesh|r, increasing your damage by $216708s1% and doubling the effect of all of |cFFFFCC99Ulthalesh|r's other traits for $216708d per soul consumed.
+
+
+
 |cFFFFCC99Ulthalesh|r collects Tormented Souls from each target you kill and occasionally escaped souls it previously collected.
 
 Name             : Deadwind Harvester (id=216708) [Spell Family (5)] 
@@ -5165,8 +5350,10 @@ Effects          :
                    Family Flags: 13
 #4 (id=1104809)  : Apply Aura (6) | Modify Base Resistance (142)
                    Base Value: 45 | Scaled Value: 45 | PvP Coefficient: 1.3 | Misc Value: 1 | Target: Self (1)
-Description      : Your Soul Leech absorption now passively recharges at a rate of ${$s1/10}.1% of maximum health every $t1 sec, and may now absorb up to $s2% of maximum health.
-
+Description      : Your Soul Leech absorption now passively recharges at a rate of ${$s1/10}.1% of maximum health every $t1 sec, and may now absorb up to $s2% of maximum health.
+
+
+
 Increases your armor by $m4%.
 
 Name             : Lord of Flames (id=224103) [Spell Family (5), Passive] 
@@ -5357,7 +5544,8 @@ Effects          :
 #1 (id=352664)   : Apply Aura (6) | Periodic Damage (3): shadow every 2 seconds
                    Base Value: 0 | Scaled Value: 0 | SP Coefficient: 0.18125 | Target: Enemy (6)
 Description      : $@spelldesc30108
-Tooltip          : Suffering $w1 Shadow damage every $t1 sec.
+Tooltip          : Suffering $w1 Shadow damage every $t1 sec.
+
 Taking $30108s3% increased damage from the Warlock.
 
 Name             : Unstable Affliction (id=233496) [Spell Family (5)] 
@@ -5379,7 +5567,8 @@ Effects          :
 #1 (id=352671)   : Apply Aura (6) | Periodic Damage (3): shadow every 2 seconds
                    Base Value: 0 | Scaled Value: 0 | SP Coefficient: 0.18125 | Target: Enemy (6)
 Description      : $@spelldesc30108
-Tooltip          : Suffering $w1 Shadow damage every $t1 sec.
+Tooltip          : Suffering $w1 Shadow damage every $t1 sec.
+
 Taking $30108s3% increased damage from the Warlock.
 
 Name             : Unstable Affliction (id=233497) [Spell Family (5)] 
@@ -5401,7 +5590,8 @@ Effects          :
 #1 (id=352672)   : Apply Aura (6) | Periodic Damage (3): shadow every 2 seconds
                    Base Value: 0 | Scaled Value: 0 | SP Coefficient: 0.18125 | Target: Enemy (6)
 Description      : $@spelldesc30108
-Tooltip          : Suffering $w1 Shadow damage every $t1 sec.
+Tooltip          : Suffering $w1 Shadow damage every $t1 sec.
+
 Taking $30108s3% increased damage from the Warlock.
 
 Name             : Unstable Affliction (id=233498) [Spell Family (5)] 
@@ -5423,7 +5613,8 @@ Effects          :
 #1 (id=352673)   : Apply Aura (6) | Periodic Damage (3): shadow every 2 seconds
                    Base Value: 0 | Scaled Value: 0 | SP Coefficient: 0.18125 | Target: Enemy (6)
 Description      : $@spelldesc30108
-Tooltip          : Suffering $w1 Shadow damage every $t1 sec.
+Tooltip          : Suffering $w1 Shadow damage every $t1 sec.
+
 Taking $30108s3% increased damage from the Warlock.
 
 Name             : Unstable Affliction (id=233499) [Spell Family (5)] 
@@ -5445,7 +5636,8 @@ Effects          :
 #1 (id=352674)   : Apply Aura (6) | Periodic Damage (3): shadow every 2 seconds
                    Base Value: 0 | Scaled Value: 0 | SP Coefficient: 0.18125 | Target: Enemy (6)
 Description      : $@spelldesc30108
-Tooltip          : Suffering $w1 Shadow damage every $t1 sec.
+Tooltip          : Suffering $w1 Shadow damage every $t1 sec.
+
 Taking $30108s3% increased damage from the Warlock.
 
 Name             : Drain Life (id=234153) [Spell Family (5)] 
@@ -5467,10 +5659,13 @@ Channel Interrupt: Action (2), Moving (3), Interacting (10), Looting (11), Attac
 Effects          :
 #1 (id=353731)   : Apply Aura (6) | Periodic Health Leech (53): every 1 seconds
                    Base Value: 0 | Scaled Value: 0 | Value Multiplier: 5 | SP Coefficient: 0.6 | Target: Enemy (6)
-Description      : $?a334320[Drains life from the target, causing ${$o1 * $334320s1} Shadow damage over $d, and healing you for ${$e1*100}% of the damage done.][Drains life from the target, causing ${$o1} Shadow damage over $d, and healing you for ${$e1*100}% of the damage done.]$?a386619[
-
+Description      : $?a334320[Drains life from the target, causing ${$o1 * $334320s1} Shadow damage over $d, and healing you for ${$e1*100}% of the damage done.][Drains life from the target, causing ${$o1} Shadow damage over $d, and healing you for ${$e1*100}% of the damage done.]$?a386619[
+
+
+
 $@spelldesc386619][]
-Tooltip          : Suffering $s1 Shadow damage every $t1 seconds.
+Tooltip          : Suffering $s1 Shadow damage every $t1 seconds.
+
 Restoring health to the Warlock.
 
 Name             : Jaws of Shadow (id=242922) 
@@ -5563,14 +5758,22 @@ Attributes       : Passive (6)
 Effects          :
 #1 (id=376201)   : Apply Aura (6) | Dummy (4)
                    Base Value: 0 | Scaled Value: 0 | Misc Value: 7 | Target: Self (1)
-Description      : $?c1[Soul Shards are generated by your Agony's damage over time.
-
-]?c2[Soul Shards are generated by your Shadow Bolt.
-
-]?c3[Soul Shard Fragments are generated by many of your spells.
-
-][]Soul Shards are consumed to cast your most powerful spells and summon demons to serve you.
-
+Description      : $?c1[Soul Shards are generated by your Agony's damage over time.
+
+
+
+]?c2[Soul Shards are generated by your Shadow Bolt.
+
+
+
+]?c3[Soul Shard Fragments are generated by many of your spells.
+
+
+
+][]Soul Shards are consumed to cast your most powerful spells and summon demons to serve you.
+
+
+
 While out of combat you regenerate up to 3 Soul Shards.
 
 Name             : Gateway Mastery (desc=PvP Talent) (id=248855) [Spell Family (5), Passive] 
@@ -5710,8 +5913,10 @@ Effects          :
                    Base Value: 0 | Scaled Value: 901684.3 (coefficient=352.5287) | PvP Coefficient: 0.5 | Radius: 0 - 5 yards | Target: At Self (18) -> At Enemy in Area (16)
 #2 (id=479677)   : Direct Heal (10) | Scaling Class: -8
                    Base Value: 0 | Scaled Value: 901684.3 (coefficient=352.5287) | Radius: 0 - 8 yards | Target: At Self (18) -> At Friendly in Area (31)
-Description      : Deals $s1 Holy Damage to enemies within $A1.
-
+Description      : Deals $s1 Holy Damage to enemies within $A1.
+
+
+
 Heals $s2 to allies within $A1. 
 
 Name             : Empowered Healthstone (id=262031) [Spell Family (5), Passive] 
@@ -5743,7 +5948,8 @@ Effects          :
 #2 (id=623147)   : Apply Aura (6) | Modify Casting Pushback (149)
                    Base Value: 100 | Scaled Value: 100 | Misc Value: 3 | Misc Value 2: 0xf | Target: Self (1)
 Description      : $@spelldesc262031
-Tooltip          : Healing for $m1% of maximum health every $t1 sec.
+Tooltip          : Healing for $m1% of maximum health every $t1 sec.
+
 Spell casts are not delayed by taking damage.
 
 Name             : Creeping Death (id=264000) [Spell Family (5), Passive] 
@@ -5778,11 +5984,15 @@ Attributes       : Not Shapeshifted (16), Do Not Log on Learn (355), Allow Class
 Effects          :
 #1 (id=707212)   : Charge (96)
                    Base Value: 0 | Scaled Value: 0 | Misc Value 2: 0x9c9f | Trigger Spell: 267964 | Target: Enemy (6)
-Description      : Command your Felguard to strike into the soul of its enemy, dealing $<damage> Shadow damage.$?c2[
-
+Description      : Command your Felguard to strike into the soul of its enemy, dealing $<damage> Shadow damage.$?c2[
+
+
+
 |cFFFFFFFFGenerates 1 Soul Shard.|r][]
-Variables        : $demoMastery=$?s77219[${1+0.01*$77219m1}][${1}]
-$demoPassive=$?s137044[${1+0.01*$137044m3}][${1}]
+Variables        : $demoMastery=$?s77219[${1+0.01*$77219m1}][${1}]
+
+$demoPassive=$?s137044[${1+0.01*$137044m3}][${1}]
+
 $damage=${.575*($SP*1)*$<demoMastery>*$<demoPassive>*(1+$@versadmg)}
 
 Name             : Dreadlash (id=264078) [Spell Family (5), Passive] 
@@ -5891,8 +6101,10 @@ Effects          :
                    Base Value: 0 | Scaled Value: 0 | Target: Enemy (6)
 #3 (id=1173941)  : Trigger Missiles (32)
                    Base Value: 0 | Scaled Value: 0 | Trigger Spell: 460553 | Target: Enemy (6)
-Description      : Send the fiery soul of a fallen demon at the enemy, causing $s1 Shadowflame damage.$?c2[
-
+Description      : Send the fiery soul of a fallen demon at the enemy, causing $s1 Shadowflame damage.$?c2[
+
+
+
 |cFFFFFFFFGenerates 2 Soul Shards.|r][]
 
 Name             : Embers (id=264364) [Spell Family (5)] 
@@ -6026,8 +6238,10 @@ Effects          :
                    Base Value: 0 | Scaled Value: 0 | Resource: soul_shard | Target: Self (1)
 #3 (id=1107331)  : None (0)
                    Base Value: 10 | Scaled Value: 10
-Description      : Summon a Demonic Tyrant to increase the duration of your Dreadstalkers, Vilefiend, Felguard, and up to $s3 of your Wild Imps by ${$265273m3/1000} sec. Your Demonic Tyrant increases the damage of affected demons by $265273s1%, while damaging your target.$?s334585[
-
+Description      : Summon a Demonic Tyrant to increase the duration of your Dreadstalkers, Vilefiend, Felguard, and up to $s3 of your Wild Imps by ${$265273m3/1000} sec. Your Demonic Tyrant increases the damage of affected demons by $265273s1%, while damaging your target.$?s334585[
+
+
+
 |cFFFFFFFFGenerates ${$s2/10} Soul Shards.|r][]
 
 Name             : Demonic Power (id=265273) [Spell Family (5)] 
@@ -6246,10 +6460,14 @@ Effects          :
                    Base Value: 10 | Scaled Value: 10 | Misc Value: 10 | Target: Self (1)
 #2 (id=718907)   : Apply Aura (6) | Dummy (4) | Attributes: Suppress Points Stacking (6)
                    Base Value: 100 | Scaled Value: 100 | Misc Value: 10 | Target: Self (1)
-Description      : When your Wild Imps expend all of their energy or are imploded, you have a $s1% chance to absorb their life essence, granting you a stack of Demonic Core. 
-
-When your summoned Dreadstalkers fade away, you have a $s2% chance to absorb their life essence, granting you a stack of Demonic Core.
-
+Description      : When your Wild Imps expend all of their energy or are imploded, you have a $s1% chance to absorb their life essence, granting you a stack of Demonic Core. 
+
+
+
+When your summoned Dreadstalkers fade away, you have a $s2% chance to absorb their life essence, granting you a stack of Demonic Core.
+
+
+
 Demonic Core reduces the cast time of Demonbolt by $264173s1%. Maximum $264173u stacks.
 
 Name             : Flashover (id=267115) [Spell Family (5), Passive] 
@@ -6489,11 +6707,15 @@ Attributes       : Not Shapeshifted (16), Do Not Log on Learn (355), Allow Class
 Effects          :
 #1 (id=714972)   : School Damage (2): shadow
                    Base Value: 0 | Scaled Value: 0 (delta=0.05) | AP Coefficient: 1 | Target: Enemy (6)
-Description      : Strike into the soul of the enemy, dealing $<damage> Shadow damage.$?s428351[
-
+Description      : Strike into the soul of the enemy, dealing $<damage> Shadow damage.$?s428351[
+
+
+
 |cFFFFFFFFGenerates 1 Soul Shard.|r][]
-Variables        : $demoMastery=$?s77219[${1+0.01*$77219m1}][${1}]
-$demoPassive=$?s137044[${1+0.01*$137044m3}][${1}]
+Variables        : $demoMastery=$?s77219[${1+0.01*$77219m1}][${1}]
+
+$demoPassive=$?s137044[${1+0.01*$137044m3}][${1}]
+
 $damage=${.575*($SP*1)*$<demoMastery>*$<demoPassive>*(1+$@versadmg)}
 
 Name             : Demonic Consumption (id=267971) [Spell Family (5)] 
@@ -6743,11 +6965,16 @@ Effects          :
                    Base Value: 0 | Scaled Value: 0 | Misc Value: 48018 | Target: Self (1)
 #2 (id=1030546)  : Apply Aura (6) | Unknown(195)
                    Base Value: 0 | Scaled Value: 0 | Misc Value: 48020 | Target: Self (1)
-Description      : $@spelldesc48018
-
-You also learn:
-
-$@spellicon48020 $@spellname48020
+Description      : $@spelldesc48018
+
+
+
+You also learn:
+
+
+
+$@spellicon48020 $@spellname48020
+
 $@spelldesc48020
 
 Name             : Implosion (id=268583) 
@@ -7085,8 +7312,10 @@ Attributes       : Is Ability (4), Do Not Sheath (18), Initiates Combat (Enables
 Effects          :
 #1 (id=723224)   : School Damage (2): physical
                    Base Value: 0 | Scaled Value: 0 (delta=0.05) | AP Coefficient: 1.8 | Target: Enemy (6)
-Description      : The Ur'zul rears up and bites its target, dealing Physical damage. 
-
+Description      : The Ur'zul rears up and bites its target, dealing Physical damage. 
+
+
+
 You're not sure which face actually bit you after thinking about it.
 
 Name             : Sacrificed Souls (id=272591) [Spell Family (5)] 
@@ -7517,10 +7746,14 @@ Effects          :
                    Base Value: 0 | Scaled Value: 0 | Target: Enemy (6)
                    Affected Spells: Corruption (172), Agony (980), Siphon Life (63106), Corruption (146739), Phantom Singularity (205179), Phantom Singularity (205246), Vile Taint (278350), Soul Rot (325640), Deliberate Corruption (367831), Vile Taint (386931), Soul Rot (386997), Soul Rot (386998), Wither (445468), Wither (445474)
                    Family Flags: 1, 8, 10, 84, 85, 112
-Description      : Afflicts one target with $o2 Shadow damage over $d. 
-
-If dispelled, deals ${$m2*$s1/100} damage to the dispeller and silences them for $196364d.$?s231791[
-
+Description      : Afflicts one target with $o2 Shadow damage over $d. 
+
+
+
+If dispelled, deals ${$m2*$s1/100} damage to the dispeller and silences them for $196364d.$?s231791[
+
+
+
 |cFFFFFFFFGenerates $231791m1 Soul $LShard:Shards; if the target dies while afflicted.|r][]
 Tooltip          : Suffering $w2 Shadow damage every $t2 sec. If dispelled, will cause ${$w2*$s1/100} damage to the dispeller and silence them for $196364d.
 
@@ -7619,7 +7852,8 @@ Effects          :
 #1 (id=814173)   : Dummy (3) | Attributes: Is Harmful (12)
                    Base Value: 0 | Scaled Value: 0 | SP Coefficient: 0.31625 | Radius: 0 - 100 yards | Target: At Self (18) -> At Enemy in Area (16)
 Description      : Your damaging periodic effects from your spells erupt on all targets, causing $324540s1 Shadowflame damage per effect.
-Variables        : $affMastery=$?s77215[${1+0.01*$77215m1}][${1}]
+Variables        : $affMastery=$?s77215[${1+0.01*$77215m1}][${1}]
+
 $damage=${$bc1*($SP)*$<affMastery>*(1+$@versadmg)}
 
 Name             : Malefic Rapture (id=324540) [Spell Family (5)] 
@@ -7669,8 +7903,10 @@ Effects          :
                    Base Value: 0 | Scaled Value: 0 | Chain Multiplier: 1 | Misc Value: 300 | Trigger Spell: 327070 | Chain Targets: 1 | Target: Enemy (6)
 #5 (id=819802)   : Trigger Spell (64): Decimating Bolt
                    Base Value: 0 | Scaled Value: 0 | Chain Multiplier: 1 | Misc Value: 400 | Trigger Spell: 327072 | Chain Targets: 1 | Target: Enemy (6)
-Description      : Hurl bolts of decimating magic at your target, dealing $<damage> Shadow damage and increasing the damage of your next$?s198590[][ $325299u] $?s137046[Incinerates]?s198590[Drain Soul]?a137044&?!s137046[Demonbolts]?!a137044[Shadow Bolts][] by $325299s1%.$?a196408[ This value is reduced while using Fire and Brimstone.][]
-
+Description      : Hurl bolts of decimating magic at your target, dealing $<damage> Shadow damage and increasing the damage of your next$?s198590[][ $325299u] $?s137046[Incinerates]?s198590[Drain Soul]?a137044&?!s137046[Demonbolts]?!a137044[Shadow Bolts][] by $325299s1%.$?a196408[ This value is reduced while using Fire and Brimstone.][]
+
+
+
 Decimating Bolt's damage, and the bonus to $?s137046[Incinerate]?s198590[Drain Soul]?a137044[Demonbolt]?!s137046&!a137044[Shadow Bolt][] both increase as your target's health decreases.
 Variables        : $damage=${4*$327059s1}
 
@@ -7735,8 +7971,10 @@ Effects          :
                    Base Value: 3 | Scaled Value: 3 | Target: Enemy (6)
 #4 (id=816155)   : Dummy (3)
                    Base Value: 10 | Scaled Value: 10 | Target: Enemy (6)
-Description      : Wither away all life force of your current target and up to $s3 additional targets nearby, causing your primary target to suffer ${$o2*(1+$m4/10)} Nature damage and secondary targets to suffer $o2 Nature damage over $d.
-
+Description      : Wither away all life force of your current target and up to $s3 additional targets nearby, causing your primary target to suffer ${$o2*(1+$m4/10)} Nature damage and secondary targets to suffer $o2 Nature damage over $d.
+
+
+
 For the next $d, casting Drain Life will cause you to also Drain Life from any enemy affected by your Soul Rot, and Drain Life will not consume any mana.
 Tooltip          : Suffering $s2 Nature damage every $t2 sec.
 
@@ -7830,15 +8068,24 @@ Effects          :
                    Base Value: -40 | Scaled Value: -40 | PvP Coefficient: 0.75 | Misc Value: 3 | Target: Self (1)
                    Affected Spells: Curse of Tongues (1714)
                    Family Flags: 102
-Description      : Your next Curse of Exhaustion, Curse of Tongues or Curse of Weakness cast within $d is amplified.
-
-$@spellname334275
-Reduces the target's movement speed by an additional $s3%.
-
-$@spellname1714
-Increases casting time by an additional $<cast>%.
-
-$@spellname702
+Description      : Your next Curse of Exhaustion, Curse of Tongues or Curse of Weakness cast within $d is amplified.
+
+
+
+$@spellname334275
+
+Reduces the target's movement speed by an additional $s3%.
+
+
+
+$@spellname1714
+
+Increases casting time by an additional $<cast>%.
+
+
+
+$@spellname702
+
 Enemy is unable to critically strike.
 Tooltip          : Next Curse of Tongues, Curse of Exhaustion or Curse of Weakness is amplified.
 Variables        : $cast=${$m1/-1}
@@ -7891,7 +8138,8 @@ Effects          :
                    Base Value: -100 | Scaled Value: -100 | Misc Value: 14 | Target: Self (1)
                    Affected Spells: Summon Imp (688), Summon Felhunter (691), Summon Voidwalker (697), Summon Felguard (30146), Summon Sayaad (366222)
                    Family Flags: 26, 27, 28, 29, 30, 96, 97, 98, 99, 100
-Description      : Your next Imp, Voidwalker, Incubus, Succubus, Felhunter, or Felguard Summon spell is free and has its casting time reduced by $s1%.
+Description      : Your next Imp, Voidwalker, Incubus, Succubus, Felhunter, or Felguard Summon spell is free and has its casting time reduced by $s1%.
+
 
 Tooltip          : Imp, Voidwalker, Succubus, Felhunter, or Felguard casting time reduced by $/1000;S1 sec.
 
@@ -7915,8 +8163,10 @@ Attributes       : Not Shapeshifted (16), Aura Points On Client (268), Nameplate
 Effects          :
 #1 (id=830121)   : Apply Aura (6) | Decrease Movement Speed% (33)
                    Base Value: -50 | Scaled Value: -50 | SP Coefficient: 1 | Target: Enemy (6)
-Description      : Reduces the target's movement speed by $s1% for $d.
-
+Description      : Reduces the target's movement speed by $s1% for $d.
+
+
+
 |cFF8282FFCurses: A warlock can only have one Curse active per target.|r
 Tooltip          : Movement speed slowed by $w1%.
 
@@ -8132,7 +8382,8 @@ Attributes       : Passive (6), No Aura Icon (60), Not In Spellbook (143)
 Effects          :
 #1 (id=834825)   : Apply Aura Pet (174) | Dummy (4)
                    Base Value: 10 | Scaled Value: 10 | Misc Value: 1 | Radius: 100 yards | Target: Self (1)
-Description      : Damage done by you or your primary demon has a chance to grant the other one $?c2[${$s1*1.5}%][$s1%] increased damage for $337060d.
+Description      : Damage done by you or your primary demon has a chance to grant the other one $?c2[${$s1*1.5}%][$s1%] increased damage for $337060d.
+
 
 
 Name             : Pillars of the Dark Portal (id=337065) [Spell Family (5), Passive] 
@@ -8145,8 +8396,10 @@ Effects          :
                    Base Value: -100 | Scaled Value: -100 | Misc Value: 10 | Target: Self (1)
                    Affected Spells: Demonic Gateway (111771), Demonic Gateway (113886), Demonic Gateway (113890)
                    Family Flags: 57
-Description      : Demonic Gateway is now instant cast, and your first use of your gateway does not trigger its cooldown.
-
+Description      : Demonic Gateway is now instant cast, and your first use of your gateway does not trigger its cooldown.
+
+
+
 In addition, nether energy lashes enemies you pass through, knocking them away.
 
 Name             : Perpetual Agony of Azj'Aqir (id=337106) [Spell Family (5), Passive] 
@@ -8372,7 +8625,8 @@ Effects          :
                    Affected Spells: Chaos Bolt (116858)
                    Family Flags: 45
 Description      : $@spelldesc337169
-Tooltip          : Chaos Bolt damage increased by $s1%.
+Tooltip          : Chaos Bolt damage increased by $s1%.
+
 Chaos Bolt cast time reduced by $s2%.
 
 Name             : Embers of the Diabolic Raiment (id=337272) [Spell Family (5), Passive] 
@@ -8420,9 +8674,11 @@ Effects          :
 #1 (id=838476)   : Apply Aura (6) | Apply Flat Modifier w/ Label (219): Spell Proc Cooldown (38)
                    Base Value: 0 | Scaled Value: 0 | Misc Value: 38 | Misc Value 2: 1067 (Label) | Target: Self (1)
                    Affected Spells (Label): Resolute Barrier (339272), Accrued Vitality (339282), Shade of Terror (339379), Demonic Momentum (339411), Demonic Momentum (339412), Corrupting Leer (339455), Rolling Agony (339481), Focused Malignancy (339500), Withering Bolt (339576), Borne of Blood (339578), Carnivorous Stalkers (339656), Carnivorous Stalkers (339673), Tyrant's Soul (339766), Tyrant's Soul (339784), Fel Commando (339845), Fel Commando (339848), Duplicitous Havoc (339890), Ashen Remains (339892), Combusting Engine (339896), Infernal Brand (340041), Infernal Brand (340045), Infernal Brand (340048), Ashen Remains (387252), Resolute Barrier (389359)
-Description      : Attacks received that deal at least $<health>% of your health decrease Unending Resolve's cooldown by $<cdr> sec. Cannot occur more than once every |cFFFFFFFF${$proccooldown-$s1/-1000} sec|r.
+Description      : Attacks received that deal at least $<health>% of your health decrease Unending Resolve's cooldown by $<cdr> sec. Cannot occur more than once every |cFFFFFFFF${$proccooldown-$s1/-1000} sec|r.
 
-Variables        : $health=${5}
+
+Variables        : $health=${5}
+
 $cdr=${10}
 
 Name             : Accrued Vitality (id=339282) [Spell Family (5), Passive, Hidden] 
@@ -8919,8 +9175,10 @@ Attributes       : Is Ability (4), Not Shapeshifted (16), Allow While Sitting (2
 Effects          :
 #1 (id=881391)   : Unknown(212)
                    Base Value: 0 | Scaled Value: 0 | Misc Value: 1251 | Target: Self (1)
-Description      : Switch between your Dracthyr and Visage forms.
-
+Description      : Switch between your Dracthyr and Visage forms.
+
+
+
 Your Visage emanates magic, significantly increasing out-of-combat health regeneration for your party.
 
 Name             : Evoker (id=353167) [Spell Family (224), Passive, Hidden] 
@@ -9125,7 +9383,8 @@ Range            : 100 yards
 Effects          :
 #1 (id=904128)   : School Damage (2): shadowflame
                    Base Value: 0 | Scaled Value: 0 | SP Coefficient: 0.85 | Radius: 0 - 10 yards | Target: At Ground (62) -> At Enemy in Area (16)
-Description      : Deals $s1 Shadowflame damage to nearby enemies.
+Description      : Deals $s1 Shadowflame damage to nearby enemies.
+
 
 
 Name             : Return Soul (id=364263) 
@@ -9336,7 +9595,8 @@ Attributes       : Not Shapeshifted (16), Dismiss Pet First (32), No AutoCast (A
 Effects          :
 #1 (id=907701)   : Summon Pet (56)
                    Base Value: 1 | Scaled Value: 1 | Misc Value: 1863 | Target: Summon from (32)
-Description      : Summons a Succubus or Incubus under your command to seduce enemy Humanoids, preventing them from attacking.
+Description      : Summons a Succubus or Incubus under your command to seduce enemy Humanoids, preventing them from attacking.
+
 
 
 Name             : Summon Blasphemy (desc=Guardian) (id=367679) [Spell Family (5)] 
@@ -9359,8 +9619,10 @@ Effects          :
                    Base Value: 1 | Scaled Value: 1 | Misc Value: 47319 | Misc Value 2: 0x759 | Target: Unknown(87)
 #2 (id=911564)   : Unknown(148)
                    Base Value: 1 | Scaled Value: 1 | Trigger Spell: 367680 | Target: Unknown(87)
-Description      : Summons a Blasphemy from the Twisting Nether, impacting for $22703s1 Fire damage and stunning all enemies in the area for $22703d.
-
+Description      : Summons a Blasphemy from the Twisting Nether, impacting for $22703s1 Fire damage and stunning all enemies in the area for $22703d.
+
+
+
 The Blasphemy will serve you for $363950s1 sec, dealing ${$20153s1*(100+$137046s3)/100} damage to all nearby enemies every $19483t1 sec and generating $264365s1 Soul Shard Fragment every $264364t1 sec.
 
 Name             : Blasphemy (desc=Guardian) (id=367680) [Spell Family (5)] 
@@ -9536,8 +9798,10 @@ Effects          :
                    Base Value: 0 | Scaled Value: 0 | Trigger Spell: 360022 | Target: Self (1)
 #2 (id=1050665)  : Cancel Aura (164)
                    Base Value: 0 | Scaled Value: 0 | Trigger Spell: 403617 | Target: Self (1)
-Description      : While active, you automatically assume your Visage when you leave combat$?a353167[.][, and assume Dracthyr form when you enter combat.]
-
+Description      : While active, you automatically assume your Visage when you leave combat$?a353167[.][, and assume Dracthyr form when you enter combat.]
+
+
+
 Activate to disable this effect.
 
 Name             : Teachings of the Black Harvest (id=385881) [Spell Family (5), Passive, Hidden] 
@@ -9570,16 +9834,26 @@ Effects          :
 #7 (id=1021281)  : Apply Aura (6) | Apply Flat Modifier w/ Label (219): Spell Range (5)
                    Base Value: 5 | Scaled Value: 5 | Misc Value: 5 | Misc Value 2: 1828 (Label) | Target: Self (1)
                    Affected Spells (Label): Pursuit (30151)
-Description      : Your primary pets gain a bonus effect.
-
-|cFFFFFFFFImp|r: Successful Singe Magic casts grant the target $386869s1% damage reduction for $386869d.
-
-|cFFFFFFFFVoidwalker|r: Reduces the cooldown of Shadow Bulwark by ${$abs($s2/1000)} sec.
-
-|cFFFFFFFFFelhunter|r: Reduces the cooldown of Devour Magic by ${$abs($s3/1000)} sec.
-
-|cFFFFFFFFSayaad|r: Reduces the cooldown of Seduction by ${$abs($s4/1000)} sec and causes the target to walk faster towards the demon.$?s137044[
-
+Description      : Your primary pets gain a bonus effect.
+
+
+
+|cFFFFFFFFImp|r: Successful Singe Magic casts grant the target $386869s1% damage reduction for $386869d.
+
+
+
+|cFFFFFFFFVoidwalker|r: Reduces the cooldown of Shadow Bulwark by ${$abs($s2/1000)} sec.
+
+
+
+|cFFFFFFFFFelhunter|r: Reduces the cooldown of Devour Magic by ${$abs($s3/1000)} sec.
+
+
+
+|cFFFFFFFFSayaad|r: Reduces the cooldown of Seduction by ${$abs($s4/1000)} sec and causes the target to walk faster towards the demon.$?s137044[
+
+
+
 |cFFFFFFFFFelguard|r: Reduces the cooldown of Pursuit by ${$abs($s6/1000)} sec and increases its maximum range by $s7 yards.][]
 
 Name             : Soulburn (id=385899) [Spell Family (5)] 
@@ -9596,16 +9870,26 @@ Aura Interrupt   : Change Specialization (38)
 Effects          :
 #1 (id=1019464)  : Trigger Spell (64): Soulburn
                    Base Value: 0 | Scaled Value: 0 | Trigger Spell: 387626 | Target: Self (1)
-Description      : Consumes a Soul Shard, unlocking the hidden power of your spells.
-
-|cFFFFFFFFDemonic Circle: Teleport|r: Increases your movement speed by $387633s1% and makes you immune to snares and roots for $387633d.
-
-|cFFFFFFFFDemonic Gateway|r: Can be cast instantly.
-
-|cFFFFFFFFDrain Life|r: Gain an absorb shield equal to the amount of healing done for $387630d. This shield cannot exceed $387630s1% of your maximum health.
-
-|cFFFFFFFFHealth Funnel|r: Restores $387626s1% more health and reduces the damage taken by your pet by ${$abs($387641s1)}% for $387641d.
-
+Description      : Consumes a Soul Shard, unlocking the hidden power of your spells.
+
+
+
+|cFFFFFFFFDemonic Circle: Teleport|r: Increases your movement speed by $387633s1% and makes you immune to snares and roots for $387633d.
+
+
+
+|cFFFFFFFFDemonic Gateway|r: Can be cast instantly.
+
+
+
+|cFFFFFFFFDrain Life|r: Gain an absorb shield equal to the amount of healing done for $387630d. This shield cannot exceed $387630s1% of your maximum health.
+
+
+
+|cFFFFFFFFHealth Funnel|r: Restores $387626s1% more health and reduces the damage taken by your pet by ${$abs($387641s1)}% for $387641d.
+
+
+
 |cFFFFFFFFHealthstone|r: Increases the healing of your Healthstone by $387626s2% and increases your maximum health by $387636s1% for $387636d.
 
 Name             : Curses of Enfeeblement (id=386105) [Spell Family (5), Passive, Hidden] 
@@ -9620,12 +9904,18 @@ Attributes       : Passive (6), Do Not Display (Spellbook, Aura Icon, Combat Log
 Effects          :
 #1 (id=1019935)  : Apply Aura (6) | Dummy (4)
                    Base Value: 0 | Scaled Value: 0 | Target: Self (1)
-Description      : Grants access to the following abilities:
-
-$@spellicon1714$@spellname1714:
-$@spelldesc1714
-
-$@spellicon334275$@spellname334275:
+Description      : Grants access to the following abilities:
+
+
+
+$@spellicon1714$@spellname1714:
+
+$@spelldesc1714
+
+
+
+$@spellicon334275$@spellname334275:
+
 $@spelldesc334275
 
 Name             : Fiendish Stride (id=386110) [Spell Family (5), Passive, Hidden] 
@@ -9687,8 +9977,10 @@ Effects          :
                    Affected School(s): All
 #4 (id=1022803)  : Apply Aura (6) | Dummy (4)
                    Base Value: 15 | Scaled Value: 15 | Target: Self (1)
-Description      : When Soul Leech absorbs damage, $s1% of damage taken is absorbed and spread out over $387847d.
-
+Description      : When Soul Leech absorbs damage, $s1% of damage taken is absorbed and spread out over $387847d.
+
+
+
 Reduces damage taken by ${$s4/10}.1%.
 
 Name             : Annihilan Training (id=386174) [Spell Family (5), Passive] 
@@ -9991,9 +10283,12 @@ Attributes       : Passive (6), No Aura Cancel (31), No Threat (42), Not an Acti
 Effects          :
 #1 (id=1020941)  : Apply Aura (6) | Dummy (4)
                    Base Value: 0 | Scaled Value: 0 | Target: Self (1)
-Description      : Healthstones you conjure for yourself are now Demonic Healthstones and can be used multiple times in combat. Demonic Healthstones cannot be traded.
-
-$@spellicon452930 $@spellname452930
+Description      : Healthstones you conjure for yourself are now Demonic Healthstones and can be used multiple times in combat. Demonic Healthstones cannot be traded.
+
+
+
+$@spellicon452930 $@spellname452930
+
 $@spelldesc452930 60 sec cooldown.
 
 Name             : Demonic Inspiration (id=386858) [Spell Family (5), Passive] 
@@ -10013,8 +10308,10 @@ Effects          :
                    Base Value: 10 | Scaled Value: 10 | Target: Self (1)
                    Affected Spells: Grimoire of Sacrifice (196100)
                    Family Flags: 116
-Description      : Increases the attack speed of your primary pet by $s1%. $?a137044[][
-
+Description      : Increases the attack speed of your primary pet by $s1%. $?a137044[][
+
+
+
 Increases Grimoire of Sacrifice damage by $s2%.]
 
 Name             : Demonic Inspiration (id=386861) [Spell Family (5), Hidden] 
@@ -10052,8 +10349,10 @@ Effects          :
                    Base Value: 10 | Scaled Value: 10 | Target: Self (1)
                    Affected Spells: Grimoire of Sacrifice (196100)
                    Family Flags: 116
-Description      : Increases the damage done by your primary pet by $s1%. $?a137044[][
-
+Description      : Increases the damage done by your primary pet by $s1%. $?a137044[][
+
+
+
 Increases Grimoire of Sacrifice damage by $s2%.]
 
 Name             : Fel Resilience (id=386869) [Spell Family (5)] 
@@ -10152,8 +10451,10 @@ Effects          :
                    Base Value: 4 | Scaled Value: 4 | Target: Enemy (6)
 #4 (id=1021495)  : Dummy (3)
                    Base Value: 10 | Scaled Value: 10 | Target: Enemy (6)
-Description      : Wither away all life force of your current target and up to $s3 additional targets nearby, causing your primary target to suffer ${$o2*(1+$m4/10)} Shadow damage and secondary targets to suffer $o2 Shadow damage over $d.
-
+Description      : Wither away all life force of your current target and up to $s3 additional targets nearby, causing your primary target to suffer ${$o2*(1+$m4/10)} Shadow damage and secondary targets to suffer $o2 Shadow damage over $d.
+
+
+
 Damage dealt by Soul Rot heals you for ${$e2*100}% of damage done.
 Tooltip          : Suffering $s2 Shadow damage every $t2 sec.
 
@@ -10211,7 +10512,8 @@ Effects          :
 #2 (id=1021527)  : Apply Aura (6) | Modify Critical Strike% (290)
                    Base Value: 4 | Scaled Value: 4 | Target: Self (1)
 Description      : $@spelldesc387016
-Tooltip          : Haste increased by ${$W1}.1%.
+Tooltip          : Haste increased by ${$W1}.1%.
+
 Critical strike chance increased by ${$W2}.1%.
 
 Name             : Tormented Crescendo (id=387075) [Spell Family (5), Passive] 
@@ -10395,8 +10697,10 @@ Effects          :
                    Base Value: 2 | Scaled Value: 2
 #4 (id=1045837)  : Dummy (3)
                    Base Value: 1 | Scaled Value: 1
-Description      : Chaos Bolt and Rain of Fire increase the damage of your next $s3 Incinerates by $s1%. Shadowburn increases the damage of your next Incinerate by $s1%.
-
+Description      : Chaos Bolt and Rain of Fire increase the damage of your next $s3 Incinerates by $s1%. Shadowburn increases the damage of your next Incinerate by $s1%.
+
+
+
 Stacks up to $387154U times.
 
 Name             : Burn to Ashes (id=387154) [Spell Family (5)] 
@@ -10574,8 +10878,10 @@ Effects          :
                    Affected Spells (Label): Flashpoint (387263)
 #2 (id=1021945)  : Apply Aura (6) | Dummy (4)
                    Base Value: 80 | Scaled Value: 80 | Target: Self (1)
-Description      : When your $?a445465[Wither][Immolate] deals periodic damage to a target above $s2% health, gain $387263s1% Haste for $387263d.
-
+Description      : When your $?a445465[Wither][Immolate] deals periodic damage to a target above $s2% health, gain $387263s1% Haste for $387263d.
+
+
+
 Stacks up to $387263U times.
 
 Name             : Flashpoint (id=387263) 
@@ -10750,8 +11056,10 @@ Effects          :
                    Affected Spells (Label): Backlash (387384)
 #3 (id=1022139)  : Apply Aura (6) | Proc Trigger Spell (42): Backlash
                    Base Value: 0 | Scaled Value: 0 | Trigger Spell: 387385 | Target: Self (1)
-Description      : Increases your critical strike chance by $s1%.
-
+Description      : Increases your critical strike chance by $s1%.
+
+
+
 Physical attacks against you have a $s2% chance to make your next Incinerate instant cast. This effect can only occur once every $proccooldown sec.
 
 Name             : Backlash (id=387385) [Spell Family (5)] 
@@ -10863,10 +11171,14 @@ Effects          :
 #2 (id=1022165)  : Apply Aura (6) | Apply Flat Modifier w/ Label (219): Spell Effect 2 (12)
                    Base Value: -10 | Scaled Value: -10 | Misc Value: 12 | Misc Value 2: 1855 (Label) | Target: Self (1)
                    Affected Spells (Label): Madness of the Azj'Aqir (387409), Madness of the Azj'Aqir (387413), Madness of the Azj'Aqir (387414)
-Description      : Chaos Bolt increases the damage of Chaos Bolt by $s1% and reduces the cast time of Chaos Bolt by $s2% for $387409d.
-
-Rain of Fire increases the damage of Rain of Fire by $s1% for $387413d.
-
+Description      : Chaos Bolt increases the damage of Chaos Bolt by $s1% and reduces the cast time of Chaos Bolt by $s2% for $387409d.
+
+
+
+Rain of Fire increases the damage of Rain of Fire by $s1% for $387413d.
+
+
+
 Shadowburn increases the damage of Shadowburn by $s1% for $387414d.
 
 Name             : Fel Sunder (id=387402) [Spell Family (5)] 
@@ -10978,8 +11290,10 @@ Effects          :
                    Base Value: 15 | Scaled Value: 15 | Target: Self (1)
 #2 (id=1105518)  : None (0)
                    Base Value: 50 | Scaled Value: 50
-Description      : Summoning a Wild Imp has a $s1% chance to summon a Imp Gang Boss instead. An Imp Gang Boss deals $387458s2% additional damage. 
-
+Description      : Summoning a Wild Imp has a $s1% chance to summon a Imp Gang Boss instead. An Imp Gang Boss deals $387458s2% additional damage. 
+
+
+
 Implosions from Imp Gang Boss deal $s2% increased damage.
 
 Name             : Imp Gang Boss (id=387458) [Spell Family (5)] 
@@ -11077,10 +11391,14 @@ Effects          :
                    Base Value: 60 | Scaled Value: 60 | Target: Self (1)
 #3 (id=1033388)  : Apply Aura (6) | Dummy (4)
                    Base Value: 5000 | Scaled Value: 5000 | Target: Self (1)
-Description      : Your single target spells have a $s1% chance to apply $?a200546[Bane of Havoc below][Havoc to] a nearby enemy for ${$s3/1000}.1 sec.
-
-$?a200546[$@spellicon200546 $@spellname200546
-Curses the ground with a demonic bane, causing all of your single target spells to also strike targets marked with the bane for $80240s1% of the damage dealt. Lasts ${$s3/1000}.1 sec.][$@spellicon80240 $@spellname80240
+Description      : Your single target spells have a $s1% chance to apply $?a200546[Bane of Havoc below][Havoc to] a nearby enemy for ${$s3/1000}.1 sec.
+
+
+
+$?a200546[$@spellicon200546 $@spellname200546
+
+Curses the ground with a demonic bane, causing all of your single target spells to also strike targets marked with the bane for $80240s1% of the damage dealt. Lasts ${$s3/1000}.1 sec.][$@spellicon80240 $@spellname80240
+
 Marks a target with Havoc for ${$s3/1000}.1 sec, causing your single target spells to also strike the Havoc victim for $80240s1% of the damage dealt.]
 
 Name             : Ner'zhul's Volition (id=387526) [Spell Family (5), Passive] 
@@ -11342,8 +11660,10 @@ Effects          :
 #3 (id=1022921)  : Apply Aura (6) | Modify All Haste% (193)
                    Base Value: 0 | Scaled Value: 0
 Description      : $@spelldesc386124
-Tooltip          : $w1 damage is being delayed every $387846t1 sec.
-
+Tooltip          : $w1 damage is being delayed every $387846t1 sec.
+
+
+
 Damage Remaining: $w2
 
 Name             : Teachings of the Satyr (id=387972) [Spell Family (5), Passive, Hidden] 
@@ -11378,17 +11698,28 @@ Effects          :
                    Base Value: 24710 | Scaled Value: 24710 | Target: Enemy (6)
 #2 (id=1023211)  : Energize Power (30)
                    Base Value: 3 | Scaled Value: 3 | Resource: soul_shard | Target: Self (1)
-Description      : Rips a hole in time and space, opening a random portal that damages your target:
-
-$@spellicon394235$@spellname394235
-$@spelldesc394235
-
-$@spellicon387979$@spellname387979
-$@spelldesc387979
-
-$@spellicon394243$@spellname394243
-$@spelldesc394243
-
+Description      : Rips a hole in time and space, opening a random portal that damages your target:
+
+
+
+$@spellicon394235$@spellname394235
+
+$@spelldesc394235
+
+
+
+$@spellicon387979$@spellname387979
+
+$@spelldesc387979
+
+
+
+$@spellicon394243$@spellname394243
+
+$@spelldesc394243
+
+
+
 |cFFFFFFFFGenerates $s2 Soul Shard Fragments.|r
 
 Name             : Unstable Tear (id=387979) [Spell Family (5)] 
@@ -11530,9 +11861,11 @@ Effects          :
                    Base Value: 5 | Scaled Value: 5
 #3 (id=1025590)  : None (0)
                    Base Value: 10 | Scaled Value: 10
-Description      : Attacks received that deal at least $s2% of your health decrease Unending Resolve's cooldown by $s3 sec. Cannot occur more than once every ${$proccooldown-$s1/-1000} sec.
+Description      : Attacks received that deal at least $s2% of your health decrease Unending Resolve's cooldown by $s3 sec. Cannot occur more than once every ${$proccooldown-$s1/-1000} sec.
 
-Variables        : $health=${5}
+
+Variables        : $health=${5}
+
 $cdr=${10}
 
 Name             : Fel Synergy (id=389367) [Spell Family (5), Passive] 
@@ -12196,7 +12529,8 @@ Effects          :
 #3 (id=1054159)  : None (0)
                    Base Value: 1 | Scaled Value: 1
 Description      : When you consume a Demonic Core, your primary Felguard carves your target, dealing $<damage> Physical damage.
-Variables        : $demoMastery=$?s77219[${1+0.01*$77219m1}][${1}]
+Variables        : $demoMastery=$?s77219[${1+0.01*$77219m1}][${1}]
+
 $damage=${1.0407824*($SP*0.5)*$<demoMastery>*(1+$@versadmg)}
 
 Name             : Immutable Hatred (id=405681) [Spell Family (5)] 
@@ -12248,8 +12582,10 @@ Effects          :
                    Base Value: 100 | Scaled Value: 100 | Target: Self (1)
 #2 (id=1078213)  : Apply Aura (6) | Dummy (4)
                    Base Value: 100 | Scaled Value: 100
-Description      : Hand of Gul'dan has a $s1% chance to burn its target for ${$405802s1*(1+$s2/100)} additional Shadowflame damage every $405802t1 sec for $405802d.
-
+Description      : Hand of Gul'dan has a $s1% chance to burn its target for ${$405802s1*(1+$s2/100)} additional Shadowflame damage every $405802t1 sec for $405802d.
+
+
+
 If this effect is reapplied, any remaining damage will be added to the new Umbral Blaze.
 
 Name             : Umbral Blaze (id=405802) [Spell Family (5)] 
@@ -12363,8 +12699,10 @@ Effects          :
                    Base Value: 0 | Scaled Value: 0 | Trigger Spell: 406087 | Target: Self (1)
 #2 (id=1054764)  : Cancel Aura (164)
                    Base Value: 0 | Scaled Value: 0 | Trigger Spell: 406090 | Target: Self (1)
-Description      : While active, you automatically assume your human form when you leave combat.
-
+Description      : While active, you automatically assume your human form when you leave combat.
+
+
+
 Activate to disable this effect.
 
 Name             : Calm the Wolf (desc=Racial) (id=406090) [Hidden] 
@@ -12679,8 +13017,10 @@ Effects          :
                    Base Value: 10 | Scaled Value: 10
 #3 (id=1089204)  : Apply Aura (6) | Dummy (4)
                    Base Value: 3 | Scaled Value: 3
-Description      : Unleash wicked magic upon your target's soul, dealing $o Shadow damage over $d.
-
+Description      : Unleash wicked magic upon your target's soul, dealing $o Shadow damage over $d.
+
+
+
 Deals $s2% increased damage, up to ${$s2*$s3}%, per damage over time effect you have active on the target.
 Tooltip          : Dealing $s1 Shadow damage to the target every $t1 sec.
 
@@ -12825,8 +13165,10 @@ Effects          :
 #2 (id=1109338)  : None (0)
                    Base Value: 110 | Scaled Value: 110
 Description      : When Doom Brand is removed, you have a chance to summon a Doomfiend that casts $423734s2 Doom Bolt Volleys before departing. Each Doom Bolt Volley deals $<damage> Shadow damage to up to $423734x1 enemies or ${$<damage>*(1+$s2/100)} Shadow damage to a single enemy.
-Variables        : $demoMastery=$?s77219[${1+0.01*$77219m1}][${1}]
-$damage=${(1.553369999
+Variables        : $demoMastery=$?s77219[${1+0.01*$77219m1}][${1}]
+
+$damage=${(1.553369999
+
 *($SP*1)*$<demoMastery>*(1+$@versadmg))*1.169617819}
 
 Name             : Warlock Destruction 10.2 Class Set 2pc (id=422921) [Spell Family (5), Passive, Hidden] 
@@ -12955,8 +13297,10 @@ Effects          :
 #2 (id=1106415)  : Apply Aura (6) | Dummy (4) | Attributes: Suppress Points Stacking (6)
                    Base Value: 60 | Scaled Value: 60 | Target: Self (1)
 Description      : $@spelldesc422918
-Tooltip          : Malefic Rapture deals $w1% increased damage and extends the duration of your damage over time effects by ${$422918s1/1000} sec.
-
+Tooltip          : Malefic Rapture deals $w1% increased damage and extends the duration of your damage over time effects by ${$422918s1/1000} sec.
+
+
+
 Seed of Corruption deals $s2% increased damage.
 
 Name             : Flame Rift (id=423874) [Spell Family (5)] 
@@ -13027,12 +13371,18 @@ Attributes       : Passive (6), Do Not Display (Spellbook, Aura Icon, Combat Log
 Effects          :
 #1 (id=1104391)  : Apply Aura (6) | Dummy (4)
                    Base Value: 0 | Scaled Value: 0 | Target: Self (1)
-Description      : Grants access to the following abilities:
-
-$@spellicon264178 $@spellname264178
-$@spelldesc264178
-
-$@spellicon267102 $@spellname267102
+Description      : Grants access to the following abilities:
+
+
+
+$@spellicon264178 $@spellname264178
+
+$@spelldesc264178
+
+
+
+$@spellicon267102 $@spellname267102
+
 $@spelldesc267102
 
 Name             : Doom Brand (id=427216) [Hidden] 
@@ -13078,9 +13428,12 @@ Attributes       : Passive (6), Do Not Display (Spellbook, Aura Icon, Combat Log
 Effects          :
 #1 (id=1108582)  : Apply Aura Pet (174) | Dummy (4)
                    Base Value: 0 | Scaled Value: 0 | Trigger Spell: 267964 | Radius: 100 yards | Target: Self (1)
-Description      : Teaches your primary Felguard the following ability:
-
-$@spellicon267964 $@spellname267964
+Description      : Teaches your primary Felguard the following ability:
+
+
+
+$@spellicon267964 $@spellname267964
+
 $@spelldesc267964
 
 Name             : Fel Invocation (id=428351) [Spell Family (5), Passive, Hidden] 
@@ -13161,8 +13514,10 @@ Effects          :
                    Base Value: -20 | Scaled Value: -20 | Target: Self (1)
 #4 (id=1260224)  : Apply Aura (6) | Dummy (4)
                    Base Value: 15 | Scaled Value: 15 | Target: Self (1)
-Description      : $?s137044[Spending a Soul Shard on a damaging spell grants Diabolic Ritual for $431944d. While Diabolic Ritual is active, each Soul Shard spent on a damaging spell reduces its duration by $s1 sec.][Casting Chaos Bolt, Rain of Fire, or Shadowburn grants Diabolic Ritual for $431944d. If Diabolic Ritual is already active, its duration is reduced by $s2 sec instead.]
-
+Description      : $?s137044[Spending a Soul Shard on a damaging spell grants Diabolic Ritual for $431944d. While Diabolic Ritual is active, each Soul Shard spent on a damaging spell reduces its duration by $s1 sec.][Casting Chaos Bolt, Rain of Fire, or Shadowburn grants Diabolic Ritual for $431944d. If Diabolic Ritual is already active, its duration is reduced by $s2 sec instead.]
+
+
+
 When Diabolic Ritual expires you gain Demonic Art, causing your next $?s137044[Hand of Gul'dan][Chaos Bolt, Rain of Fire, or Shadowburn] to summon an Overlord, Mother of Chaos, or Pit Lord that unleashes a devastating attack against your enemies.
 
 Name             : Cloven Souls (id=428517) [Spell Family (5), Passive, Hidden] 
@@ -13191,9 +13546,12 @@ Attributes       : Passive (6), Do Not Display (Spellbook, Aura Icon, Combat Log
 Effects          :
 #1 (id=1109414)  : Apply Aura (6) | Dummy (4)
                    Base Value: 0 | Scaled Value: 0 | Target: Self (1)
-Description      : Mother of Chaos empowers your next $?s137044[Shadow Bolt][Incinerate] to become Infernal Bolt.
-
-$@spellicon434506 $@spellname434506
+Description      : Mother of Chaos empowers your next $?s137044[Shadow Bolt][Incinerate] to become Infernal Bolt.
+
+
+
+$@spellicon434506 $@spellname434506
+
 $@spelldesc434506
 
 Name             : Ruination (id=428522) [Spell Family (5), Passive, Hidden] 
@@ -13208,9 +13566,12 @@ Attributes       : Passive (6), Do Not Display (Spellbook, Aura Icon, Combat Log
 Effects          :
 #1 (id=1109419)  : Apply Aura (6) | Dummy (4)
                    Base Value: 0 | Scaled Value: 0 | Target: Self (1)
-Description      : Summoning a Pit Lord causes your next $?s137044[Hand of Gul'dan][Chaos Bolt] to become Ruination.
-
-$@spellicon434635 $@spellname434635
+Description      : Summoning a Pit Lord causes your next $?s137044[Hand of Gul'dan][Chaos Bolt] to become Ruination.
+
+
+
+$@spellicon434635 $@spellname434635
+
 $@spelldesc434635
 
 Name             : Demonic Art: Overlord (id=428524) [Spell Family (5)] 
@@ -13395,8 +13756,10 @@ Effects          :
                    Affected Spells (Label): Demonic Art: Overlord (428524), Demonic Art: Mother of Chaos (432794), Demonic Art: Pit Lord (432795)
 #3 (id=1181010)  : Apply Aura (6) | Dummy (4)
                    Base Value: 1 | Scaled Value: 1 | Target: Self (1)
-Description      : Demonic Art increases the damage of your next $?s137044[Hand of Gul'dan][Chaos Bolt, Rain of Fire, or Shadowburn] by $s1% and reduces its cast time by $s2%.
-
+Description      : Demonic Art increases the damage of your next $?s137044[Hand of Gul'dan][Chaos Bolt, Rain of Fire, or Shadowburn] by $s1% and reduces its cast time by $s2%.
+
+
+
 $?s137044[][Casting Chaos Bolt reduces the duration of Diabolic Ritual by $s3 additional sec.]
 
 Name             : Gloom of Nathreza (id=429899) [Spell Family (5), Passive, Hidden] 
@@ -13463,8 +13826,10 @@ Effects          :
                    Base Value: 6 | Scaled Value: 6 | Target: Self (1)
 #2 (id=1137633)  : Apply Aura (6) | Dummy (4) | Attributes: Suppress Points Stacking (6)
                    Base Value: 1 | Scaled Value: 1 | Target: Self (1)
-Description      : Dark magic erupts from you and corrupts your soul for $442726d, causing enemies suffering from your Wither to take $446285s1 Shadowflame damage and increase its stack count by $s1.
-
+Description      : Dark magic erupts from you and corrupts your soul for $442726d, causing enemies suffering from your Wither to take $446285s1 Shadowflame damage and increase its stack count by $s1.
+
+
+
 While corrupted your Haste is increased by $442726s1% and spending Soul Shards on damaging spells grants $s2 additional stack of Wither.
 
 Name             : Diabolic Ritual: Overlord (id=431944) [Spell Family (5)] 
@@ -13484,9 +13849,12 @@ Effects          :
 #2 (id=1166696)  : Apply Aura (6) | Dummy (4)
                    Base Value: 0 | Scaled Value: 0 | Target: Self (1)
 Description      : $@spelldesc428514
-Tooltip          : Grants the following effect upon expiration:
-
-$@spellicon428524 $@spellname428524
+Tooltip          : Grants the following effect upon expiration:
+
+
+
+$@spellicon428524 $@spellname428524
+
 $@spelldesc428524
 
 Name             : Spawn (id=432105) [Spell Family (5)] 
@@ -13667,9 +14035,12 @@ Effects          :
 #2 (id=1166695)  : Apply Aura (6) | Dummy (4)
                    Base Value: 0 | Scaled Value: 0 | Target: Self (1)
 Description      : $@spelldesc428514
-Tooltip          : Grants the following effect upon expiration:
-
-$@spellicon432794 $@spellname432794
+Tooltip          : Grants the following effect upon expiration:
+
+
+
+$@spellicon432794 $@spellname432794
+
 $@spelldesc432794
 
 Name             : Diabolic Ritual: Pit Lord (id=432816) [Spell Family (5)] 
@@ -13689,9 +14060,12 @@ Effects          :
 #2 (id=1166694)  : Apply Aura (6) | Dummy (4)
                    Base Value: 0 | Scaled Value: 0 | Target: Self (1)
 Description      : $@spelldesc428514
-Tooltip          : Grants the following effect upon expiration:
-
-$@spellicon432795 $@spellname432795
+Tooltip          : Grants the following effect upon expiration:
+
+
+
+$@spellicon432795 $@spellname432795
+
 $@spelldesc432795
 
 Name             : Ruination (id=433885) [Spell Family (5)] 
@@ -13716,9 +14090,12 @@ Effects          :
 #3 (id=1131623)  : None (0)
                    Base Value: 1 | Scaled Value: 1
 Description      : $@spelldesc428522
-Tooltip          : Your next $?s137044[Hand of Gul'dan][Chaos Bolt] becomes Ruination.
-
-$@spellicon434635 $@spellname434635
+Tooltip          : Your next $?s137044[Hand of Gul'dan][Chaos Bolt] becomes Ruination.
+
+
+
+$@spellicon434635 $@spellname434635
+
 $@spelldesc434635
 
 Name             : Infernal Bolt (id=433891) [Spell Family (5)] 
@@ -13889,10 +14266,14 @@ Effects          :
                    Base Value: 0 | Scaled Value: 0 | Trigger Spell: 434636 | Radius: 8 yards | Target: At Enemy (53)
 #2 (id=1168433)  : Dummy (3)
                    Base Value: 8 | Scaled Value: 8 | Target: Enemy (6)
-Description      : Call down a demon-infested meteor from the depths of the Twisting Nether, dealing $434636s1 Chaos damage on impact to all enemies within $434636a1 yds of the target$?s137046[ and summoning $433885s3 Diabolic Imp.
-
-Damage is further increased by your critical strike chance and is reduced beyond $s2 targets.][ and summoning $433885s2 Wild Imps.
-
+Description      : Call down a demon-infested meteor from the depths of the Twisting Nether, dealing $434636s1 Chaos damage on impact to all enemies within $434636a1 yds of the target$?s137046[ and summoning $433885s3 Diabolic Imp.
+
+
+
+Damage is further increased by your critical strike chance and is reduced beyond $s2 targets.][ and summoning $433885s2 Wild Imps.
+
+
+
 Damage is reduced beyond $s2 targets.]
 
 Name             : Ruination (id=434636) [Spell Family (5)] 
@@ -14022,8 +14403,10 @@ Effects          :
                    Base Value: 8 | Scaled Value: 8
 #3 (id=1142441)  : None (0)
                    Base Value: 20 | Scaled Value: 20
-Description      : Spending Soul Shards on damaging spells will further corrupt enemies affected by your Wither, increasing its stack count by $s1.
-
+Description      : Spending Soul Shards on damaging spells will further corrupt enemies affected by your Wither, increasing its stack count by $s1.
+
+
+
 Each time Wither gains a stack it has a chance to collapse, consuming a stack every $445731t1 sec to deal $445736s1 Shadowflame damage to its host until 1 stack remains.
 
 Name             : Xalan's Ferocity (id=440044) [Spell Family (5), Passive, Hidden] 
@@ -14076,8 +14459,10 @@ Effects          :
                    Base Value: 10 | Scaled Value: 10 | Misc Value: 15 | Target: Self (1)
                    Affected Spells: Corruption (172), Immolate (348), Corruption (146739), Immolate (157736), Immolate (193540), Immolate (228312), Deliberate Corruption (367831), Wither (445468), Wither (445474)
                    Family Flags: 1, 2, 4
-Description      : Critical strike damage dealt by Wither is increased by $s1%. 
-
+Description      : Critical strike damage dealt by Wither is increased by $s1%. 
+
+
+
 Wither has a chance to gain a stack when it critically strikes. Stacks gained this way do not activate Blackened Soul.
 
 Name             : Mark of Xavius (id=440046) [Spell Family (5), Passive, Hidden] 
@@ -14107,8 +14492,10 @@ Effects          :
                    Base Value: 25 | Scaled Value: 25 | Target: Self (1)
                    Affected Spells: Immolate (348), Wither (445468)
                    Family Flags: 2
-Description      : $?s980[Agony damage increased by $s1%.][Wither damage increased by $s2%.]
-
+Description      : $?s980[Agony damage increased by $s1%.][Wither damage increased by $s2%.]
+
+
+
 Blackened Soul deals $s3% increased damage per stack of Wither.
 
 Name             : Hatefury Rituals (id=440048) [Spell Family (5), Passive, Hidden] 
@@ -14165,8 +14552,10 @@ Effects          :
                    Base Value: 20 | Scaled Value: 20 | Target: Self (1)
 #3 (id=1143971)  : Apply Aura (6) | Dummy (4)
                    Base Value: 2 | Scaled Value: 2 | Target: Self (1)
-Description      : After Wither reaches $s1 stacks or when its host reaches $s2% health, Wither deals $445736s1 Shadowflame damage to its host every $445731t1 sec until 1 stack remains.
-
+Description      : After Wither reaches $s1 stacks or when its host reaches $s2% health, Wither deals $445736s1 Shadowflame damage to its host every $445731t1 sec until 1 stack remains.
+
+
+
 When Blackened Soul deals damage, you have a chance to gain $?s137046[$s3 stacks of Flashpoint][Tormented Crescendo].
 
 Name             : Curse of the Satyr (id=440057) [Spell Family (5), Passive, Hidden] 
@@ -14185,9 +14574,12 @@ Effects          :
                    Base Value: 442804 | Scaled Value: 442804 | Target: Self (1)
                    Affected Spells: Curse of Weakness (702), Curse of the Satyr (442804)
                    Family Flags: 109
-Description      : Curse of Weakness is empowered and transforms into Curse of the Satyr.
-
-$@spellicon442804 $@spellname442804
+Description      : Curse of Weakness is empowered and transforms into Curse of the Satyr.
+
+
+
+$@spellicon442804 $@spellname442804
+
 $@spelldesc442804
 
 Name             : Aura of Enfeeblement (id=440059) [Spell Family (5), Passive] 
@@ -14299,8 +14691,10 @@ Effects          :
 #3 (id=1143168)  : Apply Aura (6) | Dummy (4)
                    Base Value: 1 | Scaled Value: 1 | Target: Self (1)
 Description      : $@spelldesc430014
-Tooltip          : Haste increased by $w1% and $?s324536[Malefic Rapture grants $w2 additional stack of Wither to targets affected by Unstable Affliction.][Chaos Bolt grants $w3 additional stack of Wither.]
-
+Tooltip          : Haste increased by $w1% and $?s324536[Malefic Rapture grants $w2 additional stack of Wither to targets affected by Unstable Affliction.][Chaos Bolt grants $w3 additional stack of Wither.]
+
+
+
 All of your active Withers are acute.
 
 Name             : Curse of the Satyr (id=442804) [Spell Family (5)] 
@@ -14327,10 +14721,14 @@ Effects          :
                    Base Value: 0 | Scaled Value: 0 | Target: Enemy (6)
 #3 (id=1138286)  : Apply Aura (6) | Unknown(355)
                    Base Value: -30 | Scaled Value: -30 | PvP Coefficient: 0.3334 | Target: Enemy (6)
-Description      : Increases the time between an enemy's attacks by $s1% and the casting time of all spells by $s3% for $d.$?s103112[
-
-|CFFE55BB0Soulburn: Your Curse of Weakness will affect all enemies in a $104222A yard radius around your target.|R][]
-
+Description      : Increases the time between an enemy's attacks by $s1% and the casting time of all spells by $s3% for $d.$?s103112[
+
+
+
+|CFFE55BB0Soulburn: Your Curse of Weakness will affect all enemies in a $104222A yard radius around your target.|R][]
+
+
+
 |cFF8282FFCurses: A warlock can only have one Curse active per target.|r
 Tooltip          : Time between attacks increased by $w1% and casting time increased by $w3%. $?e1[Chance to critically strike reduced by $w2%.][]
 
@@ -14388,12 +14786,18 @@ Effects          :
                    Base Value: 50 | Scaled Value: 50
 #3 (id=1142413)  : Trigger Spell (64): Wither
                    Base Value: 0 | Scaled Value: 0 | Trigger Spell: 445474 | Target: Enemy (6)
-Description      : Bestows a vile malediction upon the target, burning the sinew and muscle of its host, dealing $s1 Shadowflame damage immediately and an additional $445474o1 Shadowflame damage over $445474d.$?s137046[
-
-|cFFFFFFFFPeriodic damage generates 1 Soul Shard Fragment and has a $s2% chance to generate an additional 1 on critical strikes.
-
-Replaces Immolate.|r][
-
+Description      : Bestows a vile malediction upon the target, burning the sinew and muscle of its host, dealing $s1 Shadowflame damage immediately and an additional $445474o1 Shadowflame damage over $445474d.$?s137046[
+
+
+
+|cFFFFFFFFPeriodic damage generates 1 Soul Shard Fragment and has a $s2% chance to generate an additional 1 on critical strikes.
+
+
+
+Replaces Immolate.|r][
+
+
+
 |cFFFFFFFFReplaces Corruption.|r]
 
 Name             : Wither (id=445474) [Spell Family (5)] 
@@ -14420,7 +14824,8 @@ Effects          :
                    Affected Spells: Shadowburn (17877), Incinerate (29722), Chaos Bolt (116858), Incinerate (244670), Infernal Bolt (434506)
                    Family Flags: 7, 38, 45
 Description      : $@spelldesc445468
-Tooltip          : Suffering $w1 Shadowflame damage every $t1 sec.$?a339892[ 
+Tooltip          : Suffering $w1 Shadowflame damage every $t1 sec.$?a339892[ 
+
 Damage taken by Chaos Bolt and Incinerate increased by $w2%.][]
 
 Name             : Blackened Soul (id=445731) [Spell Family (5), Hidden] 
@@ -14508,8 +14913,10 @@ Effects          :
                    Base Value: 40 | Scaled Value: 40 | Misc Value: 7 | Trigger Spell: 450510 | Target: Self (1)
 #5 (id=1150461)  : Apply Aura (6) | Unknown(396)
                    Base Value: 50 | Scaled Value: 50 | Misc Value: 7 | Trigger Spell: 450510 | Target: Self (1)
-Description      : A demonic entity now inhabits your soul, allowing you to detect if a Soul Shard has a Succulent Soul when it's generated. 
-
+Description      : A demonic entity now inhabits your soul, allowing you to detect if a Soul Shard has a Succulent Soul when it's generated. 
+
+
+
 A Succulent Soul empowers your next $?s137043[Malefic Rapture, increasing its damage by $449793s2%, and unleashing your demonic soul to deal an additional $449801s1 Shadow damage.][Hand of Gul'dan, increasing its damage by $449793s3%, and unleashing your demonic soul to deal an additional $449801s1 Shadow damage.]
 
 Name             : Necrolyte Teachings (id=449620) [Spell Family (5), Passive, Hidden] 
@@ -14552,8 +14959,10 @@ Attributes       : Passive (6), Do Not Display (Spellbook, Aura Icon, Combat Log
 Effects          :
 #1 (id=1148953)  : Apply Aura (6) | Proc Trigger Spell (42): Soul Anathema
                    Base Value: 0 | Scaled Value: 0 | Trigger Spell: 450538 | Target: Self (1)
-Description      : Unleashing your demonic soul bestows a fiendish entity unto the soul of its targets, dealing $450538o1 Shadow damage over $450538d.
-
+Description      : Unleashing your demonic soul bestows a fiendish entity unto the soul of its targets, dealing $450538o1 Shadow damage over $450538d.
+
+
+
 If this effect is reapplied, any remaining damage will be added to the new Soul Anathema.
 
 Name             : Demoniac's Fervor (id=449629) [Spell Family (5), Passive, Hidden] 
@@ -14585,8 +14994,10 @@ Effects          :
                    Affected Spells (Label): Demonic Soul (449801), Wicked Reaping (449826), Demonic Soul (1239715)
 #2 (id=1151732)  : None (0)
                    Base Value: 40 | Scaled Value: 40
-Description      : Damage dealt by your demonic soul is increased by $s1%.
-
+Description      : Damage dealt by your demonic soul is increased by $s1%.
+
+
+
 Consuming $?s137043[Nightfall][Demonic Core] feeds the demonic entity within you, causing it to appear and deal $?s137043[$449826s1][${$449826s1*($s2/100)}] Shadow damage to your target.
 
 Name             : Quietus (id=449634) [Spell Family (5), Passive, Hidden] 
@@ -14608,8 +15019,10 @@ Effects          :
 #3 (id=1166670)  : Apply Aura (6) | Apply Percent Modifier w/ Label (218): Spell Duration (1)
                    Base Value: -20 | Scaled Value: -20 | Misc Value: 1 | Misc Value 2: 3545 (Label) | Target: Self (1)
                    Affected Spells (Label): Soul Anathema (450538)
-Description      : Soul Anathema damage increased by $s1% and is dealt $s2% faster.
-
+Description      : Soul Anathema damage increased by $s1% and is dealt $s2% faster.
+
+
+
 Consuming $?s137043[Nightfall][Demonic Core] activates Shared Fate or Feast of Souls.
 
 Name             : Sataiel's Volition (id=449637) [Spell Family (5), Passive, Hidden] 
@@ -14694,8 +15107,10 @@ Attributes       : Passive (6), Do Not Display (Spellbook, Aura Icon, Combat Log
 Effects          :
 #1 (id=1149138)  : Apply Aura (6) | Proc Trigger Spell (42): Marked Soul
                    Base Value: 8 | Scaled Value: 8 | Trigger Spell: 450629 | Target: Self (1)
-Description      : When you kill a target, its tortured soul is flung into a nearby enemy for $450591d. This effect inflicts $450593s1 Shadow damage to enemies within $450593a1 yds every $450591t1 sec.
-
+Description      : When you kill a target, its tortured soul is flung into a nearby enemy for $450591d. This effect inflicts $450593s1 Shadow damage to enemies within $450593a1 yds every $450591t1 sec.
+
+
+
 Deals reduced damage beyond $s1 targets.
 
 Name             : Feast of Souls (id=449706) [Spell Family (5), Passive, Hidden] 
@@ -14755,8 +15170,10 @@ Effects          :
 #4 (id=1149326)  : Apply Aura (6) | Dummy (4) | Attributes: Suppress Points Stacking (6)
                    Base Value: 1 | Scaled Value: 1
 Description      : $@spelldesc449614
-Tooltip          : $?s137043[Malefic Rapture deals $s2% increased damage.][Hand of Gul'dan deals $s3% increased damage.]
-
+Tooltip          : $?s137043[Malefic Rapture deals $s2% increased damage.][Hand of Gul'dan deals $s3% increased damage.]
+
+
+
 Unleashes your demonic entity upon consumption, dealing an additional $449801s~1 Shadow damage to enemies.
 
 Name             : Demonic Soul (id=449801) [Spell Family (5)] 
@@ -14975,8 +15392,10 @@ Effects          :
                    Base Value: 5 | Scaled Value: 5 | Target: Self (1)
 #2 (id=1154374)  : Apply Aura (6) | Modify Combat Rating Multiplier (405)
                    Base Value: 10 | Scaled Value: 10 | Rating: Crit | Target: Self (1)
-Description      : Your spells have a $s1% increased chance to deal a critical strike.
-
+Description      : Your spells have a $s1% increased chance to deal a critical strike.
+
+
+
 You gain $s2% more of the Critical Strike stat from all sources.
 
 Name             : Swift Artifice (id=452902) [Spell Family (5), Passive, Hidden] 
@@ -15077,8 +15496,10 @@ Effects          :
                    Base Value: 10 | Scaled Value: 10 | Target: Self (1)
 #2 (id=1156899)  : Apply Aura (6) | Dummy (4)
                    Base Value: 8 | Scaled Value: 8
-Description      : Refreshing Agony with $s1 or less seconds remaining deals $453035s1 Shadow damage to its target and enemies within $453035a1 yards.
-
+Description      : Refreshing Agony with $s1 or less seconds remaining deals $453035s1 Shadow damage to its target and enemies within $453035a1 yards.
+
+
+
 Deals reduced damage beyond $s2 targets.
 
 Name             : Volatile Agony (id=453035) [Spell Family (5)] 
@@ -15218,9 +15639,12 @@ Effects          :
 #1 (id=1154805)  : Apply Aura (6) | Dummy (4)
                    Base Value: 5 | Scaled Value: 5 | Target: Self (1)
 Description      : Shadow Bolt and Drain Soul have a chance to trigger a Shadow Bolt Volley, dealing $<damage> Shadow damage to $s1 enemies within $453176a1 yards of your current target.
-Variables        : $sargerei=$?a405955[${(1+$405955s1/100)}][${1}]
-$improved=$?a453080[${(1+$453080s2/100)}][${1}]
-$damage=${$453176s1*$<sargerei>*$<improved>}
+Variables        : $sargerei=$?a405955[${(1+$405955s1/100)}][${1}]
+
+$improved=$?a453080[${(1+$453080s2/100)}][${1}]
+
+$damage=${$453176s1*$<sargerei>*$<improved>}
+
 
 
 Name             : Shadowbolt Volley (id=453176) [Spell Family (5)] 
@@ -15259,8 +15683,10 @@ Effects          :
                    Base Value: 10 | Scaled Value: 10 | Target: Self (1)
 #4 (id=1154848)  : Apply Aura (6) | Dummy (4)
                    Base Value: 35 | Scaled Value: 35 | Target: Self (1)
-Description      : Increases Drain Life healing by $s1% while your health is at or below $s2% health. 
-
+Description      : Increases Drain Life healing by $s1% while your health is at or below $s2% health. 
+
+
+
 Damage done by your Agony, $?a445465[Wither][Corruption], Unstable Affliction, and Malefic Rapture is increased by $s3% when your target is at or below $s4% health.
 
 Name             : Shadow Embrace (id=453206) [Spell Family (5)] 
@@ -15547,8 +15973,10 @@ Effects          :
                    Base Value: 40 | Scaled Value: 40 | Target: Self (1)
                    Affected Spells: Shadow Bolt (686), Infernal Bolt (434506)
                    Family Flags: 0
-Description      : Increases all damage done by your pet by $s1%.
-
+Description      : Increases all damage done by your pet by $s1%.
+
+
+
 Reduces the cast time of Shadow Bolt by $s2% and increases its damage by $s3%.
 
 Name             : Improved Demonic Tactics (id=453800) [Spell Family (5), Passive, Hidden] 
@@ -15655,9 +16083,12 @@ Effects          :
                    Base Value: 455465 | Scaled Value: 455465 | Target: Self (1)
                    Affected Spells: Summon Vilefiend (264119), Summon Gloomhound (455465), Summon Charhound (455476)
                    Family Flags: 114
-Description      : Your Summon Vilefiend becomes Summon Gloomhound and learns the following ability:
-
-$@spellicon455489 $@spellname455489
+Description      : Your Summon Vilefiend becomes Summon Gloomhound and learns the following ability:
+
+
+
+$@spellicon455489 $@spellname455489
+
 $@spelldesc455489
 
 Name             : Mark of F'harg (id=455450) [Spell Family (5), Passive, Hidden] 
@@ -15674,9 +16105,12 @@ Effects          :
                    Base Value: 455476 | Scaled Value: 455476 | Target: Self (1)
                    Affected Spells: Summon Vilefiend (264119), Summon Gloomhound (455465), Summon Charhound (455476)
                    Family Flags: 114
-Description      : Your Summon Vilefiend becomes Summon Charhound and learns the following ability:
-
-$@spellicon428453 $@spellname428453
+Description      : Your Summon Vilefiend becomes Summon Charhound and learns the following ability:
+
+
+
+$@spellicon428453 $@spellname428453
+
 $@spelldesc428453
 
 Name             : Summon Gloomhound (id=455465) [Spell Family (5)] 
@@ -16131,9 +16565,12 @@ Attributes       : Passive (6), Not In Spellbook (143), Do Not Log on Learn (355
 Effects          :
 #1 (id=1161596)  : Apply Aura (6) | Dummy (4)
                    Base Value: 80 | Scaled Value: 80 | Target: Self (1)
-Description      : Consuming Ritual of Ruin summons an Overfiend for $434587d.
-
-$@spellicon434587 $@spellname434587
+Description      : Consuming Ritual of Ruin summons an Overfiend for $434587d.
+
+
+
+$@spellicon434587 $@spellname434587
+
 $@spelldesc434587
 
 Name             : Decimation (id=456985) [Spell Family (5), Passive] 
@@ -16281,8 +16718,10 @@ Attributes       : Passive (6), Not In Spellbook (143), Do Not Log on Learn (355
 Effects          :
 #1 (id=1163736)  : Apply Aura (6) | Dummy (4)
                    Base Value: 4 | Scaled Value: 4 | Target: Self (1)
-Description      : The stack count of Agony is increased by $s1 when applied by Vile Taint.
-
+Description      : The stack count of Agony is increased by $s1 when applied by Vile Taint.
+
+
+
 Enemies damaged by Phantom Singularity take $458219s1% increased damage from you for its duration.
 
 Name             : Malign Omen (id=458041) [Spell Family (5), Passive] 
@@ -16301,9 +16740,12 @@ Effects          :
                    Base Value: 2000 | Scaled Value: 2000 | Target: Self (1)
 #2 (id=1163940)  : Apply Aura (6) | Proc Trigger Spell (42): Malign Omen
                    Base Value: 3 | Scaled Value: 3 | Trigger Spell: 458043 | Target: Self (1)
-Description      : Casting Soul Rot grants $s2 applications of Malign Omen.
-
-$@spellicon458043 $@spellname458043
+Description      : Casting Soul Rot grants $s2 applications of Malign Omen.
+
+
+
+$@spellicon458043 $@spellname458043
+
 $@spelldesc458043
 
 Name             : Malign Omen (id=458043) [Spell Family (5)] 
@@ -16380,8 +16822,10 @@ Effects          :
                    Base Value: -20 | Scaled Value: -20 | Misc Value: 10 | Target: Self (1)
                    Affected Spells: Unstable Affliction (30108), Unstable Affliction (233490), Unstable Affliction (233496), Unstable Affliction (233497), Unstable Affliction (233498), Unstable Affliction (233499), Unstable Affliction (316099), Unstable Affliction (1219045)
                    Family Flags: 40
-Description      : The cast time of Unstable Affliction is reduced by $s2%.
-
+Description      : The cast time of Unstable Affliction is reduced by $s2%.
+
+
+
 Refreshing Unstable Affliction with $s1 or less seconds remaining deals $459461s1 Shadow damage to its target.
 
 Name             : Ravenous Afflictions (id=459440) [Spell Family (5), Passive] 
@@ -16434,8 +16878,10 @@ Effects          :
                    Base Value: 1000 | Scaled Value: 1000 | Target: Self (1)
 #2 (id=1168313)  : Apply Aura (6) | Dummy (4)
                    Base Value: 8 | Scaled Value: 8 | Target: Self (1)
-Description      : When Demonbolt consumes a Demonic Core it inflicts impending doom upon the target, dealing $460555s1 Shadow damage to enemies within $460555a1 yds of its target after $460553d or when removed. Damage is reduced beyond $s2 targets.
-
+Description      : When Demonbolt consumes a Demonic Core it inflicts impending doom upon the target, dealing $460555s1 Shadow damage to enemies within $460555a1 yds of its target after $460553d or when removed. Damage is reduced beyond $s2 targets.
+
+
+
 Each Soul Shard spent on Hand of Gul'dan reduces the duration of Doom by ${$s1/1000} sec.
 
 Name             : Doom (id=460553) [Spell Family (5)] 
@@ -16694,8 +17140,10 @@ Effects          :
                    Base Value: 25 | Scaled Value: 25 | Target: Self (1)
 #3 (id=1196660)  : Apply Aura (6) | Dummy (4)
                    Base Value: 100 | Scaled Value: 100 | Target: Self (1)
-Description      : Periodic damage from $?a445465[Wither][Immolate] has a $s1% chance to fire a Demonfire bolt at $s3% increased effectiveness.
-
+Description      : Periodic damage from $?a445465[Wither][Immolate] has a $s1% chance to fire a Demonfire bolt at $s3% increased effectiveness.
+
+
+
 Incinerate has a $s2% chance to fire a Demonfire bolt at $s3% increased effectiveness.
 
 Name             : Rain of Fire (id=1214467) [Spell Family (5)] 
@@ -16721,8 +17169,10 @@ Effects          :
                    Base Value: 0 | Scaled Value: 0 | Misc Value: 5420 | Target: At Enemy (53)
 #3 (id=1196683)  : Apply Aura (6) | Periodic Dummy (226): every 1 seconds
                    Base Value: 0 | Scaled Value: 0 | Target: Self (1)
-Description      : Calls down a rain of hellfire upon your target, dealing ${$42223m1*8} Fire damage over $d to enemies in the area.
-
+Description      : Calls down a rain of hellfire upon your target, dealing ${$42223m1*8} Fire damage over $d to enemies in the area.
+
+
+
 |cFFFFFFFFThis spell is cast at your target.|r
 Tooltip          : $42223s1 Fire damage every $5740t2 sec.
 
@@ -17086,10 +17536,14 @@ Effects          :
                    Base Value: 0 | Scaled Value: 0 | Target: Enemy (6)
                    Affected Spells: Corruption (172), Agony (980), Siphon Life (63106), Corruption (146739), Phantom Singularity (205179), Phantom Singularity (205246), Vile Taint (278350), Soul Rot (325640), Deliberate Corruption (367831), Vile Taint (386931), Soul Rot (386997), Soul Rot (386998), Wither (445468), Wither (445474)
                    Family Flags: 1, 8, 10, 84, 85, 112
-Description      : Afflicts one target with $o2 Shadow damage over $d. 
-
-If dispelled, deals ${$m2*$s1/100} damage to the dispeller and silences them for $196364d.$?s231791[
-
+Description      : Afflicts one target with $o2 Shadow damage over $d. 
+
+
+
+If dispelled, deals ${$m2*$s1/100} damage to the dispeller and silences them for $196364d.$?s231791[
+
+
+
 |cFFFFFFFFGenerates $231791m1 Soul $LShard:Shards; if the target dies while afflicted.|r][]
 Tooltip          : Suffering $w2 Shadow damage every $t2 sec. If dispelled, will cause ${$w2*$s1/100} damage to the dispeller and silence them for $196364d.
 
@@ -17105,8 +17559,10 @@ Attributes       : Is Ability (4), Spellbook Hidden Until Overridden (335), Disp
 Effects          :
 #1 (id=1220649)  : Dummy (3)
                    Base Value: 25 | Scaled Value: 25 | Target: Any Target (25)
-Description      : Casts damaging abilities for use in combat, rotating through them based on priority.
-
+Description      : Casts damaging abilities for use in combat, rotating through them based on priority.
+
+
+
 The global cooldown of abilities used through the Single-Button Assistant is $s1% longer.
 
 Name             : Warlock Hellcaller 11.2 Class Set 2pc (id=1236413) [Spell Family (5), Passive, Hidden] 
@@ -17146,7 +17602,8 @@ Effects          :
                    Base Value: 2 | Scaled Value: 2 | PvP Coefficient: 0.5 | Target: Self (1)
 #2 (id=1237452)  : Apply Aura (6) | Dummy (4)
                    Base Value: 2 | Scaled Value: 2 | PvP Coefficient: 0.5 | Target: Self (1)
-Description      : Casting Malevolence grants $?a137043[$s1][$s2] stacks of $?a137043[Tormented Crescendo][Backdraft] and prevents Blackened Soul from consuming stacks while dealing damage $?a137043[$1239577s2][$1239577s3]% faster for $1239577d.
+Description      : Casting Malevolence grants $?a137043[$s1][$s2] stacks of $?a137043[Tormented Crescendo][Backdraft] and prevents Blackened Soul from consuming stacks while dealing damage $?a137043[$1239577s2][$1239577s3]% faster for $1239577d.
+
 
 
 Name             : Warlock Soul Harvester 11.2 Class Set 2pc (id=1236415) [Spell Family (5), Passive, Hidden] 
@@ -17237,8 +17694,10 @@ Effects          :
 #1 (id=1236101)  : Apply Aura (6) | Dummy (4)
                    Base Value: 0 | Scaled Value: 0 | Target: Self (1)
 Description      : $@spelldesc1236417
-Tooltip          : A demonic eye floats overhead, analyzing nearby enemies.
-
+Tooltip          : A demonic eye floats overhead, analyzing nearby enemies.
+
+
+
 Consuming Demonic Art commands the eye to fly at your current target and explode, dealing Fire damage.
 
 Name             : Eye Blast (id=1239510) [Spell Family (5)] 
@@ -17321,8 +17780,10 @@ Effects          :
 #3 (id=1255738)  : Apply Aura (6) | Dummy (4)
                    Base Value: 0 | Scaled Value: 0 | Target: Self (1)
 Description      : $@spelldesc1236415
-Tooltip          : Your Demonic Soul has been unleashed and is assaulting nearby enemies.
-
+Tooltip          : Your Demonic Soul has been unleashed and is assaulting nearby enemies.
+
+
+
 $?a1236416[Generating ${$s2/10} $lSoul Shard:Soul Shards; every $t2 sec.][]
 
 Name             : Soul Swipe (id=1239714) [Spell Family (5)] 
